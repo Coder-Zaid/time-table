@@ -1,0 +1,128 @@
+{
+  "stage": "10",
+  "name": "Holiday Closure Recovery & Timetable Simulation Engine",
+  "version": "10.0.0",
+  "status": "PASS",
+  "marker": "STAGE_10_PASS — HOLIDAY RECOVERY & TIMETABLE SIMULATION CERTIFIED",
+  "implementation_summary": {
+    "objective": "Build a production-grade deterministic timetable recovery and simulation layer that can model holidays, institutional closures, cancelled teaching days, exceptional closures, temporary room/faculty unavailability, and other calendar disruptions; calculate teaching deficit; generate compliant recovery candidates using the certified Stage 9 generation engine; compare recovery strategies; and provide isolated what-if simulations without modifying the source timetable, certified production timetable, immutable versions, or published data.",
+    "architecture": {
+      "pipeline": [
+        "LOAD_SOURCE_PROJECT",
+        "LOAD_SOURCE_VERSION",
+        "LOAD_POLICY_SNAPSHOT",
+        "LOAD_CALENDAR",
+        "LOAD_CURRENT_TIMETABLE",
+        "CREATE_ISOLATED_SIMULATION_SNAPSHOT",
+        "APPLY_SCENARIO",
+        "IDENTIFY_AFFECTED_EVENTS",
+        "CALCULATE_TEACHING_DEFICIT",
+        "CALCULATE_RECOVERY_REQUIREMENTS",
+        "RUN_FEASIBILITY_ANALYSIS",
+        "GENERATE_RECOVERY_CANDIDATES",
+        "VALIDATE_RECOVERY_CANDIDATES",
+        "OPTIMIZE_RECOVERY_CANDIDATES",
+        "COMPARE_RECOVERY_STRATEGIES",
+        "CERTIFY_SIMULATION_RESULT",
+        "STORE_IMMUTABLE_SIMULATION"
+      ]
+    },
+    "scenario_architecture": {
+      "model": "DisruptionScenario",
+      "types_supported": [
+        "HOLIDAY",
+        "INSTITUTIONAL_CLOSURE",
+        "EMERGENCY_CLOSURE",
+        "CANCELLED_TEACHING_DAY",
+        "PARTIAL_DAY_CLOSURE",
+        "ROOM_UNAVAILABLE",
+        "FACULTY_UNAVAILABLE",
+        "SECTION_UNAVAILABLE",
+        "BUILDING_UNAVAILABLE",
+        "CUSTOM_SCENARIO"
+      ],
+      "severities": ["INFO", "LOW", "MEDIUM", "HIGH", "CRITICAL"],
+      "fingerprinting": "Deterministic SHA-256 over scenario parameters"
+    },
+    "calendar_model": {
+      "precedence": [
+        "Explicit date exception",
+        "Institutional closure",
+        "Holiday",
+        "Recurring calendar rule",
+        "Normal calendar"
+      ],
+      "atomicity_rules": "2-hour lab continuity preserved atomically; partial slot overlap triggers full atomic event disruption"
+    },
+    "deficit_model": {
+      "metrics_computed": [
+        "affected_events_count",
+        "affected_event_hours",
+        "affected_section_hours",
+        "affected_faculty_hours",
+        "affected_room_hours",
+        "affected_labs",
+        "affected_shared_events",
+        "affected_multi_section_events",
+        "affected_multi_faculty_events"
+      ],
+      "breakdowns": ["by_day", "by_section", "by_faculty"]
+    },
+    "recovery_architecture": {
+      "modes": [
+        "DIRECT_RESCHEDULE",
+        "DISTRIBUTED_RECOVERY",
+        "SAME_WEEK_RECOVERY",
+        "EXTENDED_WINDOW_RECOVERY",
+        "NO_RECOVERY"
+      ],
+      "stage9_integration": "Converts scenario disruptions into hard blocked slots for Stage 9 TimetableGenerationEngine; zero hard constraint relaxation",
+      "optimization_order": [
+        "HARD_FEASIBILITY",
+        "MINIMIZE_UNRECOVERED_DEFICIT",
+        "MINIMIZE_ADDITIONAL_STUDENT_DISRUPTION",
+        "MINIMIZE_ADDITIONAL_FACULTY_DISRUPTION",
+        "MINIMIZE_ADDITIONAL_ROOM_DISRUPTION",
+        "MINIMIZE_DAY_CHANGES",
+        "MINIMIZE_SLOT_DISPLACEMENT",
+        "MINIMIZE_GAPS",
+        "MINIMIZE_EXCESSIVE_RUNS",
+        "MINIMIZE_DAILY_LOAD_IMBALANCE",
+        "MINIMIZE_PREFERENCE_PENALTIES"
+      ]
+    },
+    "isolation_and_storage": {
+      "root": "projects/simulations/<simulation_id>/",
+      "subdirectories": [
+        "input", "scenarios", "disrupted", "recovery", "validation", "comparison", "exports", "logs"
+      ],
+      "files": [
+        "simulation_request.json",
+        "simulation_result.json",
+        "scenario.json",
+        "source_fingerprint.json",
+        "disrupted_timetable.json",
+        "recovery_candidates.json",
+        "validation_results.json",
+        "comparison.json",
+        "diagnostics.json"
+      ]
+    },
+    "security": {
+      "rbac": "Server-side default deny for SUPER_ADMIN, TIMETABLE_ADMIN, TEACHER, VIEWER",
+      "audit": "Append-only audit records for all simulation & recovery lifecycle events"
+    }
+  },
+  "golden_hashes": {
+    "status": "PASS",
+    "production_schedule.json": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+    "stage5_3_corrected_optimized_schedule.json": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+    "production_schedule.csv": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643"
+  },
+  "test_summary": {
+    "total_tests": 132,
+    "passed": 132,
+    "failed": 0
+  },
+  "hard_stop": true
+}

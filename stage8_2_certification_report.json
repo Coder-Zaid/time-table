@@ -1,0 +1,69 @@
+{
+  "stage": "8.2",
+  "name": "Universal Timetable Import, Parsing & Data Mapping",
+  "status": "STAGE_8_2_PASS",
+  "decision": "STAGE_8_2_PASS — UNIVERSAL TIMETABLE IMPORT CERTIFIED",
+  "timestamp": "2026-09-13T20:32:00Z",
+  "golden_dataset_hashes": {
+    "production_schedule.json": {
+      "expected": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+      "actual": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+      "status": "MATCH"
+    },
+    "stage5_3_corrected_optimized_schedule.json": {
+      "expected": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+      "actual": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+      "status": "MATCH"
+    },
+    "production_schedule.csv": {
+      "expected": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643",
+      "actual": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643",
+      "status": "MATCH"
+    }
+  },
+  "certified_invariants_preserved": {
+    "total_events": 598,
+    "student_hours": 748,
+    "faculty_hours": 981,
+    "lab_count": 75,
+    "shared_events": 38,
+    "roomed_events": 595,
+    "pinned_no_room_events": 3,
+    "friday_post_lunch_hours": 0
+  },
+  "parsers_implemented": [
+    "FETMultiFileReconciler (Groups, Rooms, Teachers HTML)",
+    "CSVImporter (auto-delimiter and column mapping)",
+    "XLSXImporter (multi-worksheet workbook inspector and parser)",
+    "JSONImporter (Canonical Stage 8.1 schema and production flat-event array)"
+  ],
+  "multi_file_reconciliation": {
+    "expected_master_events": 598,
+    "actual_master_events": 598,
+    "student_hours": 748,
+    "faculty_hours": 981,
+    "labs": 75,
+    "shared_events": 38,
+    "roomed_events": 595,
+    "no_room_events": 3,
+    "duplicate_events": 0,
+    "status": "EXACT_RECONCILIATION_CONFIRMED"
+  },
+  "test_summary": {
+    "total_tests": 39,
+    "passed": 39,
+    "failed": 0,
+    "pass_rate": "100%"
+  },
+  "ui_enhancements": [
+    "Universal Timetable Import navigation tab and view",
+    "Drag-and-drop file upload zone with file chips",
+    "Automated format detection card with confidence scoring",
+    "Live multi-file reconciliation preview table",
+    "12-Hour format (AM/PM) time presentation across timetable slots, header badges, event inspection modals, and preview tables"
+  ],
+  "next_stage_readiness": {
+    "ready_for_stage_8_3": true,
+    "golden_import_equivalence": true
+  }
+}

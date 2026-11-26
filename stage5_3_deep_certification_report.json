@@ -1,0 +1,61 @@
+{
+  "status": "STAGE_5_3_CERT_AUDIT_PASS",
+  "decision": "STAGE_5_3_CERT_AUDIT_PASS \u2014 CORRECTED TIMETABLE FULLY CERTIFIED",
+  "timestamp": "2026-09-13T17:47:00Z",
+  "candidate_schedule": "stage5_3_corrected_optimized_schedule.json",
+  "audit_gates": {
+    "G1_independent_schedule_reconstruction": "PASS",
+    "G2_friday_hard_constraint": "PASS",
+    "G3_hard_feasibility": "PASS",
+    "G4_frozen_assignment_integrity": "PASS",
+    "G5_metric_reconciliation": "PASS",
+    "G6_previous_stage_comparison": "PASS",
+    "G7_lexicographic_pass_audit": "PASS",
+    "G8_consecutive_run_audit": "PASS",
+    "G9_stability_audit": "PASS",
+    "G10_solver_vs_independent_validator": "PASS",
+    "G11_source_integrity": "PASS"
+  },
+  "friday_post_lunch_audit": {
+    "forbidden_slots": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "slot_4_hours": 0,
+    "slot_5_hours": 0,
+    "slot_6_hours": 0,
+    "slot_7_hours": 0,
+    "slot_8_hours": 0,
+    "total_forbidden_event_hours": 0,
+    "violations_count": 0
+  },
+  "comparison_audit": {
+    "baseline_friday_post_lunch_hours": 0,
+    "stage5_2_friday_post_lunch_hours": 59,
+    "stage5_3_friday_post_lunch_hours": 0,
+    "red_flag_resolution": "Clarified that baseline had 0 Friday post-lunch hours; Stage 5.2 placed 59 event-hours on Friday afternoon; Stage 5.3 strictly eliminated all 59 event-hours, restoring Friday afternoon to 0."
+  },
+  "authoritative_metrics": {
+    "combined_zero_buffer_building_moves": 75,
+    "faculty_zero_buffer_building_moves": 67,
+    "student_zero_buffer_building_moves": 8,
+    "student_slot4_occupancy": 0,
+    "faculty_slot4_occupancy": 0,
+    "student_2h_lunch_violations": 0,
+    "faculty_2h_lunch_violations": 2,
+    "student_isolated_1h_gaps": 15,
+    "faculty_isolated_1h_gaps": 31,
+    "student_maximal_5h_runs": 0,
+    "student_maximal_4h_runs": 13,
+    "faculty_maximal_5h_runs": 0,
+    "faculty_maximal_4h_runs": 1,
+    "mean_student_daily_variance": 1.747,
+    "mean_faculty_daily_variance": 1.159,
+    "unchanged_placements": 399,
+    "changed_placements": 199,
+    "placement_retention_percent": 66.7
+  }
+}

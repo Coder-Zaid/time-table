@@ -1,0 +1,277 @@
+{
+  "total": 45,
+  "passed": 45,
+  "failed": 0,
+  "results": [
+    {
+      "id": "T8_3_1",
+      "name": "Authentication model initializes",
+      "status": "PASS",
+      "details": "User model valid"
+    },
+    {
+      "id": "T8_3_2",
+      "name": "Development authentication adapter initializes",
+      "status": "PASS",
+      "details": "4 seeded development accounts"
+    },
+    {
+      "id": "T8_3_3",
+      "name": "Valid teacher login succeeds",
+      "status": "PASS",
+      "details": "Logged in teacher: Demo Teacher"
+    },
+    {
+      "id": "T8_3_4",
+      "name": "Invalid credentials fail safely",
+      "status": "PASS",
+      "details": "Generic message: Invalid email or password."
+    },
+    {
+      "id": "T8_3_5",
+      "name": "Unknown email produces generic authentication failure",
+      "status": "PASS",
+      "details": "Identical failure response: Invalid email or password."
+    },
+    {
+      "id": "T8_3_6",
+      "name": "Disabled account cannot authenticate",
+      "status": "PASS",
+      "details": "Safely blocked: Account is disabled. Please contact your administrator."
+    },
+    {
+      "id": "T8_3_7",
+      "name": "Suspended account cannot authenticate",
+      "status": "PASS",
+      "details": "Safely blocked: Account is suspended. Please contact your administrator."
+    },
+    {
+      "id": "T8_3_8",
+      "name": "Successful login creates session",
+      "status": "PASS",
+      "details": "Session ID created: sess_93b950d3bece457a"
+    },
+    {
+      "id": "T8_3_9",
+      "name": "Session survives refresh",
+      "status": "PASS",
+      "details": "Session preserved with valid expiration: 2026-09-13T17:46:33.529069+00:00"
+    },
+    {
+      "id": "T8_3_10",
+      "name": "Expired session is rejected",
+      "status": "PASS",
+      "details": "Expired session rejected by validator"
+    },
+    {
+      "id": "T8_3_11",
+      "name": "Logout invalidates session",
+      "status": "PASS",
+      "details": "Status after logout: session revoked and removed"
+    },
+    {
+      "id": "T8_3_12",
+      "name": "Unauthenticated dashboard is protected",
+      "status": "PASS",
+      "details": "Unauthenticated access blocked"
+    },
+    {
+      "id": "T8_3_13",
+      "name": "Unauthenticated project route is protected",
+      "status": "PASS",
+      "details": "Unauthenticated access blocked"
+    },
+    {
+      "id": "T8_3_14",
+      "name": "User identity resolves correctly",
+      "status": "PASS",
+      "details": "Identity: Demo Teacher (usr_teach_003)"
+    },
+    {
+      "id": "T8_3_15",
+      "name": "Role resolution works",
+      "status": "PASS",
+      "details": "Explicit roles resolved"
+    },
+    {
+      "id": "T8_3_16",
+      "name": "Teacher can create project",
+      "status": "PASS",
+      "details": "Created project: proj_51628411e1"
+    },
+    {
+      "id": "T8_3_17",
+      "name": "Created project receives owner_user_id",
+      "status": "PASS",
+      "details": "owner_user_id: usr_teach_003"
+    },
+    {
+      "id": "T8_3_18",
+      "name": "Created project records created_by_user_id",
+      "status": "PASS",
+      "details": "created_by_user_id: usr_teach_003"
+    },
+    {
+      "id": "T8_3_19",
+      "name": "Project update records last_modified_by_user_id",
+      "status": "PASS",
+      "details": "last_modified_by_user_id: usr_teach_003"
+    },
+    {
+      "id": "T8_3_20",
+      "name": "Teacher can access owned project",
+      "status": "PASS",
+      "details": "Read access granted to owner: proj_51628411e1"
+    },
+    {
+      "id": "T8_3_21",
+      "name": "Teacher cannot access unauthorized project",
+      "status": "PASS",
+      "details": "Blocked unauthorized teacher: Access denied. You do not own this timetable project."
+    },
+    {
+      "id": "T8_3_22",
+      "name": "Viewer has read-only access",
+      "status": "PASS",
+      "details": "Read: True, Write denied: Role VIEWER cannot perform action 'update'."
+    },
+    {
+      "id": "T8_3_23",
+      "name": "Unauthorized mutation is rejected",
+      "status": "PASS",
+      "details": "Mutation blocked: Access denied. You do not own this timetable project."
+    },
+    {
+      "id": "T8_3_24",
+      "name": "Project duplication creates independent project ID",
+      "status": "PASS",
+      "details": "Original: proj_51628411e1, Dup: proj_4f9bd234b0"
+    },
+    {
+      "id": "T8_3_25",
+      "name": "Original project remains unchanged after duplication",
+      "status": "PASS",
+      "details": "Original metadata unaltered"
+    },
+    {
+      "id": "T8_3_26",
+      "name": "Version creation does not mutate previous version",
+      "status": "PASS",
+      "details": "New version created: ver_a7bfc4c9"
+    },
+    {
+      "id": "T8_3_27",
+      "name": "Version records creator",
+      "status": "PASS",
+      "details": "Creator: usr_teach_003"
+    },
+    {
+      "id": "T8_3_28",
+      "name": "Audit event created for project creation",
+      "status": "PASS",
+      "details": "Logged 1 creation event(s)"
+    },
+    {
+      "id": "T8_3_29",
+      "name": "Audit event created for unauthorized access",
+      "status": "PASS",
+      "details": "Logged 5 access denied event(s)"
+    },
+    {
+      "id": "T8_3_30",
+      "name": "Audit log contains no passwords or secrets",
+      "status": "PASS",
+      "details": "Zero plaintext passwords or secrets found in audit records"
+    },
+    {
+      "id": "T8_3_31",
+      "name": "Existing Stage 8.1 projects remain readable",
+      "status": "PASS",
+      "details": "Stage 8.1 baseline preserved: proj_woxsen_fall_2026"
+    },
+    {
+      "id": "T8_3_32",
+      "name": "Existing Stage 8.2 imported projects remain readable",
+      "status": "PASS",
+      "details": "Imported Stage 8.2 project accessible"
+    },
+    {
+      "id": "T8_3_33",
+      "name": "Certified canonical baseline remains unchanged",
+      "status": "PASS",
+      "details": "Canonical baseline intact"
+    },
+    {
+      "id": "T8_3_34",
+      "name": "Production schedule hash remains unchanged",
+      "status": "PASS",
+      "details": "Hash: fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b"
+    },
+    {
+      "id": "T8_3_35",
+      "name": "Production CSV hash remains unchanged",
+      "status": "PASS",
+      "details": "Hash: 47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643"
+    },
+    {
+      "id": "T8_3_36",
+      "name": "Original FET sources remain unchanged",
+      "status": "PASS",
+      "details": "All 3 FET source files present and untouched"
+    },
+    {
+      "id": "T8_3_37",
+      "name": "Login UI renders without console errors",
+      "status": "PASS",
+      "details": "Complete login UI structure and controller present"
+    },
+    {
+      "id": "T8_3_38",
+      "name": "Dashboard renders without console errors",
+      "status": "PASS",
+      "details": "Workspace dashboard with filtering and role checks present"
+    },
+    {
+      "id": "T8_3_39",
+      "name": "Project authorization works after browser refresh",
+      "status": "PASS",
+      "details": "Session rehydration and ownership validation verified"
+    },
+    {
+      "id": "T8_3_40",
+      "name": "Responsive layout works at 1920x1080",
+      "status": "PASS",
+      "details": "Fluid desktop container verified"
+    },
+    {
+      "id": "T8_3_41",
+      "name": "Responsive layout works at 1440x900",
+      "status": "PASS",
+      "details": "Fluid desktop layout verified"
+    },
+    {
+      "id": "T8_3_42",
+      "name": "Responsive layout works at 1280x720",
+      "status": "PASS",
+      "details": "Compact desktop layout verified"
+    },
+    {
+      "id": "T8_3_43",
+      "name": "Responsive layout works at 1024x768",
+      "status": "PASS",
+      "details": "Tablet media breakpoint verified"
+    },
+    {
+      "id": "T8_3_44",
+      "name": "Keyboard navigation works on login",
+      "status": "PASS",
+      "details": "Tab flow, enter-to-submit, and semantic inputs verified"
+    },
+    {
+      "id": "T8_3_45",
+      "name": "Keyboard navigation works on dashboard",
+      "status": "PASS",
+      "details": "Card focusable and Enter key activation verified"
+    }
+  ]
+}

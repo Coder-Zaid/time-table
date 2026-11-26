@@ -1,0 +1,36 @@
+{
+  "stage": "12",
+  "title": "Publishing + Public Timetable Viewer",
+  "timestamp": "2026-09-14T01:07:00Z",
+  "total_tests": 155,
+  "passed_tests": 155,
+  "failed_tests": 0,
+  "error_tests": 0,
+  "status": "PASS",
+  "test_categories": {
+    "preflight_and_source_integrity": 8,
+    "publication_models_and_enums": 10,
+    "public_snapshot_sanitization": 17,
+    "publishing_eligibility_and_gates": 20,
+    "publication_lifecycle_and_immutability": 20,
+    "public_viewer_views_and_queries": 30,
+    "security_rbac_and_audit": 20,
+    "certified_dataset_regression_and_determinism": 30
+  },
+  "golden_hashes": {
+    "production_schedule_json": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+    "stage5_3_corrected_optimized_schedule_json": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+    "production_schedule_csv": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643"
+  },
+  "source_integrity": {
+    "fet_groups_html": "UNCHANGED",
+    "fet_rooms_html": "UNCHANGED",
+    "fet_teachers_html": "UNCHANGED",
+    "certified_production": "UNCHANGED",
+    "stage5_3_timetable": "UNCHANGED"
+  },
+  "prior_stage_regressions": {
+    "stage_11_tests": "142/142 PASS",
+    "stage_10_tests": "132/132 PASS"
+  }
+}

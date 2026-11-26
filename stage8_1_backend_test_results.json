@@ -1,0 +1,97 @@
+{
+  "summary": {
+    "passed": 22,
+    "failed": 0,
+    "total": 22
+  },
+  "results": {
+    "T8_1_1": {
+      "status": "PASS",
+      "description": "Create empty timetable project."
+    },
+    "T8_1_2": {
+      "status": "PASS",
+      "description": "Create project with academic calendar."
+    },
+    "T8_1_3": {
+      "status": "PASS",
+      "description": "Add sections manually."
+    },
+    "T8_1_4": {
+      "status": "PASS",
+      "description": "Add faculty manually."
+    },
+    "T8_1_5": {
+      "status": "PASS",
+      "description": "Add subjects and teaching requirements."
+    },
+    "T8_1_6": {
+      "status": "PASS",
+      "description": "Add rooms."
+    },
+    "T8_1_7": {
+      "status": "PASS",
+      "description": "Add faculty availability."
+    },
+    "T8_1_8": {
+      "status": "PASS",
+      "description": "Add section availability."
+    },
+    "T8_1_9": {
+      "status": "PASS",
+      "description": "Add room availability."
+    },
+    "T8_1_10": {
+      "status": "PASS",
+      "description": "Add institution holiday."
+    },
+    "T8_1_11": {
+      "status": "PASS",
+      "description": "Add department closure."
+    },
+    "T8_1_12": {
+      "status": "PASS",
+      "description": "Add faculty leave."
+    },
+    "T8_1_13": {
+      "status": "PASS",
+      "description": "Run validation with valid dataset."
+    },
+    "T8_1_14": {
+      "status": "PASS",
+      "description": "Inject duplicate ID and verify ERROR."
+    },
+    "T8_1_15": {
+      "status": "PASS",
+      "description": "Inject missing faculty reference and verify ERROR."
+    },
+    "T8_1_16": {
+      "status": "PASS",
+      "description": "Inject missing room reference and verify ERROR."
+    },
+    "T8_1_17": {
+      "status": "PASS",
+      "description": "Inject impossible lab requirement and verify ERROR."
+    },
+    "T8_1_18": {
+      "status": "PASS",
+      "description": "Run feasibility preview without generating timetable."
+    },
+    "T8_1_19": {
+      "status": "PASS",
+      "description": "Verify version creation."
+    },
+    "T8_1_20": {
+      "status": "PASS",
+      "description": "Verify old version remains unchanged."
+    },
+    "T8_1_21": {
+      "status": "PASS",
+      "description": "Verify certified production snapshot remains unchanged."
+    },
+    "T8_1_22": {
+      "status": "PASS",
+      "description": "Verify Stage 7 regression still passes."
+    }
+  }
+}

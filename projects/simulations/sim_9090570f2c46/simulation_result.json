@@ -1,0 +1,1660 @@
+{
+  "simulation_id": "sim_9090570f2c46",
+  "source_project_id": "proj_woxsen_fall_2026",
+  "source_project_version_id": "v1_d7fd7d4d",
+  "source_timetable_fingerprint": "1e3f9855f4f25c4a454bcb7f68150aab12f1f794c768ba429c72e801d516bd0e",
+  "policy_snapshot_id": "polver_default",
+  "scenario_ids": [
+    "sc_dbg"
+  ],
+  "scenario_fingerprint": "2cb90728627df827b3f9da15ac58b8d3b8a5c3b3853224ef368dcc1184d8a19b",
+  "feasibility_status": "FEASIBLE",
+  "affected_events": [
+    {
+      "event_id": 0,
+      "subject": "Behavioural & Quantitative Transactions Theory",
+      "duration": 1,
+      "is_lab": false,
+      "is_shared": false,
+      "is_pinned": false,
+      "is_frozen": false,
+      "sections": [
+        "BIC_ TIGERS_2024"
+      ],
+      "faculty": [
+        "Prof. Shaheera CR"
+      ],
+      "room": "Room no : C-202",
+      "building": "Block C",
+      "original_day": 0,
+      "original_start_slot": 1,
+      "affected": true,
+      "lost_hours": 1,
+      "reasons": [
+        "Institutional calendar closure on day 0"
+      ]
+    },
+    {
+      "event_id": 1,
+      "subject": "Behavioural & Quantitative Transactions Theory",
+      "duration": 1,
+      "is_lab": false,
+      "is_shared": false,
+      "is_pinned": false,
+      "is_frozen": false,
+      "sections": [
+        "BIC_ TIGERS_2024"
+      ],
+      "faculty": [
+        "Prof. Atukara Ashok"
+      ],
+      "room": "Room no : C-202",
+      "building": "Block C",
+      "original_day": 0,
+      "original_start_slot": 2,
+      "affected": true,
+      "lost_hours": 1,
+      "reasons": [
+        "Institutional calendar closure on day 0"
+      ]
+    }
+  ],
+  "teaching_deficit": {
+    "affected_events_count": 2,
+    "affected_event_hours": 2,
+    "affected_section_hours": 2,
+    "affected_faculty_hours": 2,
+    "affected_room_hours": 2,
+    "affected_labs": 0,
+    "affected_shared_events": 0,
+    "affected_multi_section_events": 0,
+    "affected_multi_faculty_events": 0,
+    "breakdown_by_day": {
+      "0": 2
+    },
+    "breakdown_by_section": {
+      "BIC_ TIGERS_2024": 2
+    },
+    "breakdown_by_faculty": {
+      "Prof. Shaheera CR": 1,
+      "Prof. Atukara Ashok": 1
+    }
+  },
+  "recovery_status": "FULLY_RECOVERABLE",
+  "recovery_candidates": [
+    {
+      "recovery_candidate_id": "rec_cand_sc_dbg_001",
+      "scenario_id": "sc_dbg",
+      "source_project_version_id": "v1_d7fd7d4d",
+      "source_timetable_fingerprint": "1e3f9855f4f25c4a454bcb7f68150aab12f1f794c768ba429c72e801d516bd0e",
+      "candidate_timetable_fingerprint": "cc21797a6cb8c8d58707ee5ddd0c895cb5d33bda026ca811540d13299860023d",
+      "recovery_mode": "DIRECT_RESCHEDULE",
+      "generation_run_id": "rec_run_sc_dbg_direct_r",
+      "affected_events_total": 2,
+      "affected_events_recovered": 2,
+      "affected_events_unrecovered": 0,
+      "recovered_event_hours": 2,
+      "unrecovered_event_hours": 0,
+      "student_disruption_score": 3.0,
+      "faculty_disruption_score": 2.0,
+      "room_disruption_score": 0.0,
+      "stability_score": 35.0,
+      "gap_score": 0.0,
+      "run_score": 0.0,
+      "balance_score": 0.0,
+      "hard_validation": {
+        "valid": true,
+        "errors_count": 0,
+        "warnings_count": 0,
+        "errors": [],
+        "warnings": []
+      },
+      "soft_validation": {},
+      "status": "VALID",
+      "created_at": "2026-09-13T21:12:12.463167+00:00",
+      "events": [
+        {
+          "baseline_day": 0,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Monday",
+          "duration": 1,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 0,
+          "event_type": "Theory",
+          "faculty": [
+            "Prof. Shaheera CR"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 1,
+          "start_time": "10:00",
+          "subject": "Behavioural & Quantitative Transactions Theory",
+          "day": 2,
+          "slot": 1
+        },
+        {
+          "baseline_day": 0,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Monday",
+          "duration": 1,
+          "end_slot": 3,
+          "end_time": "12:00",
+          "event_id": 1,
+          "event_type": "Theory",
+          "faculty": [
+            "Prof. Atukara Ashok"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "11:00",
+          "subject": "Behavioural & Quantitative Transactions Theory",
+          "day": 1,
+          "slot": 2
+        },
+        {
+          "baseline_day": 0,
+          "baseline_slot": 3,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Wednesday",
+          "duration": 1,
+          "end_slot": 4,
+          "end_time": "12:00",
+          "event_id": 2,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Karthick N"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 3,
+          "start_time": "11:00",
+          "subject": "IoT Security Theory",
+          "day": 1,
+          "slot": 3
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 0,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 2,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 3,
+          "event_type": "Lab",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu",
+            "Ms. G Kavyanjali"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": true,
+          "is_multi_faculty": true,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 0,
+          "start_time": "09:00",
+          "subject": "Digital Forensics Lab",
+          "day": 1,
+          "slot": 0
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 1,
+          "end_slot": 5,
+          "end_time": "12:00",
+          "event_id": 4,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 4,
+          "start_time": "11:00",
+          "subject": "Digital Forensics Theory",
+          "day": 1,
+          "slot": 4
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 3,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 1,
+          "end_slot": 6,
+          "end_time": "16:00",
+          "event_id": 5,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 5,
+          "start_time": "15:00",
+          "subject": "Essentials of Blockchain Technology Theory",
+          "day": 1,
+          "slot": 5
+        },
+        {
+          "baseline_day": 2,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Wednesday",
+          "duration": 1,
+          "end_slot": 1,
+          "end_time": "11:00",
+          "event_id": 6,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 0,
+          "start_time": "10:00",
+          "subject": "Essentials of Blockchain Technology Theory",
+          "day": 2,
+          "slot": 0
+        },
+        {
+          "baseline_day": 2,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Thursday",
+          "duration": 2,
+          "end_slot": 4,
+          "end_time": "17:00",
+          "event_id": 7,
+          "event_type": "Lab",
+          "faculty": [
+            "Dr. Karthick N",
+            "Mr. Idapalapati Gokul Nand"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": true,
+          "is_multi_faculty": true,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "15:00",
+          "subject": "IoT Security Lab",
+          "day": 2,
+          "slot": 2
+        },
+        {
+          "baseline_day": 3,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 3,
+          "day_name": "Thursday",
+          "duration": 1,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 8,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 1,
+          "start_time": "10:00",
+          "subject": "Digital Forensics Theory",
+          "day": 3,
+          "slot": 1
+        },
+        {
+          "baseline_day": 3,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 3,
+          "day_name": "Thursday",
+          "duration": 1,
+          "end_slot": 3,
+          "end_time": "12:00",
+          "event_id": 9,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Karthick N"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "11:00",
+          "subject": "IoT Security Theory",
+          "day": 3,
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "recovery_candidate_id": "rec_cand_sc_dbg_002",
+      "scenario_id": "sc_dbg",
+      "source_project_version_id": "v1_d7fd7d4d",
+      "source_timetable_fingerprint": "1e3f9855f4f25c4a454bcb7f68150aab12f1f794c768ba429c72e801d516bd0e",
+      "candidate_timetable_fingerprint": "cc21797a6cb8c8d58707ee5ddd0c895cb5d33bda026ca811540d13299860023d",
+      "recovery_mode": "DISTRIBUTED_RECOVERY",
+      "generation_run_id": "rec_run_sc_dbg_distribu",
+      "affected_events_total": 2,
+      "affected_events_recovered": 2,
+      "affected_events_unrecovered": 0,
+      "recovered_event_hours": 2,
+      "unrecovered_event_hours": 0,
+      "student_disruption_score": 3.0,
+      "faculty_disruption_score": 2.0,
+      "room_disruption_score": 0.0,
+      "stability_score": 35.0,
+      "gap_score": 0.0,
+      "run_score": 0.0,
+      "balance_score": 0.0,
+      "hard_validation": {
+        "valid": true,
+        "errors_count": 0,
+        "warnings_count": 0,
+        "errors": [],
+        "warnings": []
+      },
+      "soft_validation": {},
+      "status": "VALID",
+      "created_at": "2026-09-13T21:12:12.464202+00:00",
+      "events": [
+        {
+          "baseline_day": 0,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Monday",
+          "duration": 1,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 0,
+          "event_type": "Theory",
+          "faculty": [
+            "Prof. Shaheera CR"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 1,
+          "start_time": "10:00",
+          "subject": "Behavioural & Quantitative Transactions Theory",
+          "day": 2,
+          "slot": 1
+        },
+        {
+          "baseline_day": 0,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Monday",
+          "duration": 1,
+          "end_slot": 3,
+          "end_time": "12:00",
+          "event_id": 1,
+          "event_type": "Theory",
+          "faculty": [
+            "Prof. Atukara Ashok"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "11:00",
+          "subject": "Behavioural & Quantitative Transactions Theory",
+          "day": 1,
+          "slot": 2
+        },
+        {
+          "baseline_day": 0,
+          "baseline_slot": 3,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Wednesday",
+          "duration": 1,
+          "end_slot": 4,
+          "end_time": "12:00",
+          "event_id": 2,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Karthick N"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 3,
+          "start_time": "11:00",
+          "subject": "IoT Security Theory",
+          "day": 1,
+          "slot": 3
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 0,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 2,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 3,
+          "event_type": "Lab",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu",
+            "Ms. G Kavyanjali"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": true,
+          "is_multi_faculty": true,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 0,
+          "start_time": "09:00",
+          "subject": "Digital Forensics Lab",
+          "day": 1,
+          "slot": 0
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 1,
+          "end_slot": 5,
+          "end_time": "12:00",
+          "event_id": 4,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 4,
+          "start_time": "11:00",
+          "subject": "Digital Forensics Theory",
+          "day": 1,
+          "slot": 4
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 3,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 1,
+          "end_slot": 6,
+          "end_time": "16:00",
+          "event_id": 5,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 5,
+          "start_time": "15:00",
+          "subject": "Essentials of Blockchain Technology Theory",
+          "day": 1,
+          "slot": 5
+        },
+        {
+          "baseline_day": 2,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Wednesday",
+          "duration": 1,
+          "end_slot": 1,
+          "end_time": "11:00",
+          "event_id": 6,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 0,
+          "start_time": "10:00",
+          "subject": "Essentials of Blockchain Technology Theory",
+          "day": 2,
+          "slot": 0
+        },
+        {
+          "baseline_day": 2,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Thursday",
+          "duration": 2,
+          "end_slot": 4,
+          "end_time": "17:00",
+          "event_id": 7,
+          "event_type": "Lab",
+          "faculty": [
+            "Dr. Karthick N",
+            "Mr. Idapalapati Gokul Nand"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": true,
+          "is_multi_faculty": true,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "15:00",
+          "subject": "IoT Security Lab",
+          "day": 2,
+          "slot": 2
+        },
+        {
+          "baseline_day": 3,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 3,
+          "day_name": "Thursday",
+          "duration": 1,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 8,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 1,
+          "start_time": "10:00",
+          "subject": "Digital Forensics Theory",
+          "day": 3,
+          "slot": 1
+        },
+        {
+          "baseline_day": 3,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 3,
+          "day_name": "Thursday",
+          "duration": 1,
+          "end_slot": 3,
+          "end_time": "12:00",
+          "event_id": 9,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Karthick N"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "11:00",
+          "subject": "IoT Security Theory",
+          "day": 3,
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "recovery_candidate_id": "rec_cand_sc_dbg_003",
+      "scenario_id": "sc_dbg",
+      "source_project_version_id": "v1_d7fd7d4d",
+      "source_timetable_fingerprint": "1e3f9855f4f25c4a454bcb7f68150aab12f1f794c768ba429c72e801d516bd0e",
+      "candidate_timetable_fingerprint": "cc21797a6cb8c8d58707ee5ddd0c895cb5d33bda026ca811540d13299860023d",
+      "recovery_mode": "SAME_WEEK_RECOVERY",
+      "generation_run_id": "rec_run_sc_dbg_same_wee",
+      "affected_events_total": 2,
+      "affected_events_recovered": 2,
+      "affected_events_unrecovered": 0,
+      "recovered_event_hours": 2,
+      "unrecovered_event_hours": 0,
+      "student_disruption_score": 3.0,
+      "faculty_disruption_score": 2.0,
+      "room_disruption_score": 0.0,
+      "stability_score": 35.0,
+      "gap_score": 0.0,
+      "run_score": 0.0,
+      "balance_score": 0.0,
+      "hard_validation": {
+        "valid": true,
+        "errors_count": 0,
+        "warnings_count": 0,
+        "errors": [],
+        "warnings": []
+      },
+      "soft_validation": {},
+      "status": "VALID",
+      "created_at": "2026-09-13T21:12:12.465476+00:00",
+      "events": [
+        {
+          "baseline_day": 0,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Monday",
+          "duration": 1,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 0,
+          "event_type": "Theory",
+          "faculty": [
+            "Prof. Shaheera CR"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 1,
+          "start_time": "10:00",
+          "subject": "Behavioural & Quantitative Transactions Theory",
+          "day": 2,
+          "slot": 1
+        },
+        {
+          "baseline_day": 0,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Monday",
+          "duration": 1,
+          "end_slot": 3,
+          "end_time": "12:00",
+          "event_id": 1,
+          "event_type": "Theory",
+          "faculty": [
+            "Prof. Atukara Ashok"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "11:00",
+          "subject": "Behavioural & Quantitative Transactions Theory",
+          "day": 1,
+          "slot": 2
+        },
+        {
+          "baseline_day": 0,
+          "baseline_slot": 3,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Wednesday",
+          "duration": 1,
+          "end_slot": 4,
+          "end_time": "12:00",
+          "event_id": 2,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Karthick N"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 3,
+          "start_time": "11:00",
+          "subject": "IoT Security Theory",
+          "day": 1,
+          "slot": 3
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 0,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 2,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 3,
+          "event_type": "Lab",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu",
+            "Ms. G Kavyanjali"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": true,
+          "is_multi_faculty": true,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 0,
+          "start_time": "09:00",
+          "subject": "Digital Forensics Lab",
+          "day": 1,
+          "slot": 0
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 1,
+          "end_slot": 5,
+          "end_time": "12:00",
+          "event_id": 4,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 4,
+          "start_time": "11:00",
+          "subject": "Digital Forensics Theory",
+          "day": 1,
+          "slot": 4
+        },
+        {
+          "baseline_day": 1,
+          "baseline_slot": 3,
+          "building": "Block C",
+          "day_idx": 1,
+          "day_name": "Tuesday",
+          "duration": 1,
+          "end_slot": 6,
+          "end_time": "16:00",
+          "event_id": 5,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 5,
+          "start_time": "15:00",
+          "subject": "Essentials of Blockchain Technology Theory",
+          "day": 1,
+          "slot": 5
+        },
+        {
+          "baseline_day": 2,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Wednesday",
+          "duration": 1,
+          "end_slot": 1,
+          "end_time": "11:00",
+          "event_id": 6,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 0,
+          "start_time": "10:00",
+          "subject": "Essentials of Blockchain Technology Theory",
+          "day": 2,
+          "slot": 0
+        },
+        {
+          "baseline_day": 2,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 2,
+          "day_name": "Thursday",
+          "duration": 2,
+          "end_slot": 4,
+          "end_time": "17:00",
+          "event_id": 7,
+          "event_type": "Lab",
+          "faculty": [
+            "Dr. Karthick N",
+            "Mr. Idapalapati Gokul Nand"
+          ],
+          "floor": 2,
+          "is_displaced": true,
+          "is_lab": true,
+          "is_multi_faculty": true,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "15:00",
+          "subject": "IoT Security Lab",
+          "day": 2,
+          "slot": 2
+        },
+        {
+          "baseline_day": 3,
+          "baseline_slot": 1,
+          "building": "Block C",
+          "day_idx": 3,
+          "day_name": "Thursday",
+          "duration": 1,
+          "end_slot": 2,
+          "end_time": "11:00",
+          "event_id": 8,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Rajukumar Kalimuthu"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 1,
+          "start_time": "10:00",
+          "subject": "Digital Forensics Theory",
+          "day": 3,
+          "slot": 1
+        },
+        {
+          "baseline_day": 3,
+          "baseline_slot": 2,
+          "building": "Block C",
+          "day_idx": 3,
+          "day_name": "Thursday",
+          "duration": 1,
+          "end_slot": 3,
+          "end_time": "12:00",
+          "event_id": 9,
+          "event_type": "Theory",
+          "faculty": [
+            "Dr. Karthick N"
+          ],
+          "floor": 2,
+          "is_displaced": false,
+          "is_lab": false,
+          "is_multi_faculty": false,
+          "is_pinned": false,
+          "is_roomless": false,
+          "is_shared": false,
+          "room": "Room no : C-202",
+          "sections": [
+            "BIC_ TIGERS_2024"
+          ],
+          "start_slot": 2,
+          "start_time": "11:00",
+          "subject": "IoT Security Theory",
+          "day": 3,
+          "slot": 2
+        }
+      ]
+    }
+  ],
+  "best_candidate": {
+    "recovery_candidate_id": "rec_cand_sc_dbg_001",
+    "scenario_id": "sc_dbg",
+    "source_project_version_id": "v1_d7fd7d4d",
+    "source_timetable_fingerprint": "1e3f9855f4f25c4a454bcb7f68150aab12f1f794c768ba429c72e801d516bd0e",
+    "candidate_timetable_fingerprint": "cc21797a6cb8c8d58707ee5ddd0c895cb5d33bda026ca811540d13299860023d",
+    "recovery_mode": "DIRECT_RESCHEDULE",
+    "generation_run_id": "rec_run_sc_dbg_direct_r",
+    "affected_events_total": 2,
+    "affected_events_recovered": 2,
+    "affected_events_unrecovered": 0,
+    "recovered_event_hours": 2,
+    "unrecovered_event_hours": 0,
+    "student_disruption_score": 3.0,
+    "faculty_disruption_score": 2.0,
+    "room_disruption_score": 0.0,
+    "stability_score": 35.0,
+    "gap_score": 0.0,
+    "run_score": 0.0,
+    "balance_score": 0.0,
+    "hard_validation": {
+      "valid": true,
+      "errors_count": 0,
+      "warnings_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "soft_validation": {},
+    "status": "VALID",
+    "created_at": "2026-09-13T21:12:12.463167+00:00",
+    "events": [
+      {
+        "baseline_day": 0,
+        "baseline_slot": 1,
+        "building": "Block C",
+        "day_idx": 2,
+        "day_name": "Monday",
+        "duration": 1,
+        "end_slot": 2,
+        "end_time": "11:00",
+        "event_id": 0,
+        "event_type": "Theory",
+        "faculty": [
+          "Prof. Shaheera CR"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 1,
+        "start_time": "10:00",
+        "subject": "Behavioural & Quantitative Transactions Theory",
+        "day": 2,
+        "slot": 1
+      },
+      {
+        "baseline_day": 0,
+        "baseline_slot": 2,
+        "building": "Block C",
+        "day_idx": 1,
+        "day_name": "Monday",
+        "duration": 1,
+        "end_slot": 3,
+        "end_time": "12:00",
+        "event_id": 1,
+        "event_type": "Theory",
+        "faculty": [
+          "Prof. Atukara Ashok"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 2,
+        "start_time": "11:00",
+        "subject": "Behavioural & Quantitative Transactions Theory",
+        "day": 1,
+        "slot": 2
+      },
+      {
+        "baseline_day": 0,
+        "baseline_slot": 3,
+        "building": "Block C",
+        "day_idx": 1,
+        "day_name": "Wednesday",
+        "duration": 1,
+        "end_slot": 4,
+        "end_time": "12:00",
+        "event_id": 2,
+        "event_type": "Theory",
+        "faculty": [
+          "Dr. Karthick N"
+        ],
+        "floor": 2,
+        "is_displaced": true,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 3,
+        "start_time": "11:00",
+        "subject": "IoT Security Theory",
+        "day": 1,
+        "slot": 3
+      },
+      {
+        "baseline_day": 1,
+        "baseline_slot": 0,
+        "building": "Block C",
+        "day_idx": 1,
+        "day_name": "Tuesday",
+        "duration": 2,
+        "end_slot": 2,
+        "end_time": "11:00",
+        "event_id": 3,
+        "event_type": "Lab",
+        "faculty": [
+          "Dr. Rajukumar Kalimuthu",
+          "Ms. G Kavyanjali"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": true,
+        "is_multi_faculty": true,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 0,
+        "start_time": "09:00",
+        "subject": "Digital Forensics Lab",
+        "day": 1,
+        "slot": 0
+      },
+      {
+        "baseline_day": 1,
+        "baseline_slot": 2,
+        "building": "Block C",
+        "day_idx": 1,
+        "day_name": "Tuesday",
+        "duration": 1,
+        "end_slot": 5,
+        "end_time": "12:00",
+        "event_id": 4,
+        "event_type": "Theory",
+        "faculty": [
+          "Dr. Rajukumar Kalimuthu"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 4,
+        "start_time": "11:00",
+        "subject": "Digital Forensics Theory",
+        "day": 1,
+        "slot": 4
+      },
+      {
+        "baseline_day": 1,
+        "baseline_slot": 3,
+        "building": "Block C",
+        "day_idx": 1,
+        "day_name": "Tuesday",
+        "duration": 1,
+        "end_slot": 6,
+        "end_time": "16:00",
+        "event_id": 5,
+        "event_type": "Theory",
+        "faculty": [
+          "Dr. Rajukumar Kalimuthu"
+        ],
+        "floor": 2,
+        "is_displaced": true,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 5,
+        "start_time": "15:00",
+        "subject": "Essentials of Blockchain Technology Theory",
+        "day": 1,
+        "slot": 5
+      },
+      {
+        "baseline_day": 2,
+        "baseline_slot": 1,
+        "building": "Block C",
+        "day_idx": 2,
+        "day_name": "Wednesday",
+        "duration": 1,
+        "end_slot": 1,
+        "end_time": "11:00",
+        "event_id": 6,
+        "event_type": "Theory",
+        "faculty": [
+          "Dr. Rajukumar Kalimuthu"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 0,
+        "start_time": "10:00",
+        "subject": "Essentials of Blockchain Technology Theory",
+        "day": 2,
+        "slot": 0
+      },
+      {
+        "baseline_day": 2,
+        "baseline_slot": 2,
+        "building": "Block C",
+        "day_idx": 2,
+        "day_name": "Thursday",
+        "duration": 2,
+        "end_slot": 4,
+        "end_time": "17:00",
+        "event_id": 7,
+        "event_type": "Lab",
+        "faculty": [
+          "Dr. Karthick N",
+          "Mr. Idapalapati Gokul Nand"
+        ],
+        "floor": 2,
+        "is_displaced": true,
+        "is_lab": true,
+        "is_multi_faculty": true,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 2,
+        "start_time": "15:00",
+        "subject": "IoT Security Lab",
+        "day": 2,
+        "slot": 2
+      },
+      {
+        "baseline_day": 3,
+        "baseline_slot": 1,
+        "building": "Block C",
+        "day_idx": 3,
+        "day_name": "Thursday",
+        "duration": 1,
+        "end_slot": 2,
+        "end_time": "11:00",
+        "event_id": 8,
+        "event_type": "Theory",
+        "faculty": [
+          "Dr. Rajukumar Kalimuthu"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 1,
+        "start_time": "10:00",
+        "subject": "Digital Forensics Theory",
+        "day": 3,
+        "slot": 1
+      },
+      {
+        "baseline_day": 3,
+        "baseline_slot": 2,
+        "building": "Block C",
+        "day_idx": 3,
+        "day_name": "Thursday",
+        "duration": 1,
+        "end_slot": 3,
+        "end_time": "12:00",
+        "event_id": 9,
+        "event_type": "Theory",
+        "faculty": [
+          "Dr. Karthick N"
+        ],
+        "floor": 2,
+        "is_displaced": false,
+        "is_lab": false,
+        "is_multi_faculty": false,
+        "is_pinned": false,
+        "is_roomless": false,
+        "is_shared": false,
+        "room": "Room no : C-202",
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "start_slot": 2,
+        "start_time": "11:00",
+        "subject": "IoT Security Theory",
+        "day": 3,
+        "slot": 2
+      }
+    ]
+  },
+  "comparison": {
+    "baseline_vs_disrupted": {
+      "baseline_events": 10,
+      "placed_events_after_disruption": 0,
+      "unplaced_events": 10,
+      "deficit_hours": 12
+    },
+    "baseline_vs_recovered": {
+      "baseline_events": 10,
+      "recovered_events": 10,
+      "day_changes": 3,
+      "slot_displacement": 5,
+      "unrecovered_deficit": 0
+    },
+    "disrupted_vs_recovered": {
+      "events_rescued_from_cancellation": 2,
+      "hours_restored": 2
+    }
+  },
+  "diagnostics": {
+    "affected_events": [
+      {
+        "event_id": 0,
+        "subject": "Behavioural & Quantitative Transactions Theory",
+        "duration": 1,
+        "is_lab": false,
+        "is_shared": false,
+        "is_pinned": false,
+        "is_frozen": false,
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "faculty": [
+          "Prof. Shaheera CR"
+        ],
+        "room": "Room no : C-202",
+        "building": "Block C",
+        "original_day": 0,
+        "original_start_slot": 1,
+        "affected": true,
+        "lost_hours": 1,
+        "reasons": [
+          "Institutional calendar closure on day 0"
+        ]
+      },
+      {
+        "event_id": 1,
+        "subject": "Behavioural & Quantitative Transactions Theory",
+        "duration": 1,
+        "is_lab": false,
+        "is_shared": false,
+        "is_pinned": false,
+        "is_frozen": false,
+        "sections": [
+          "BIC_ TIGERS_2024"
+        ],
+        "faculty": [
+          "Prof. Atukara Ashok"
+        ],
+        "room": "Room no : C-202",
+        "building": "Block C",
+        "original_day": 0,
+        "original_start_slot": 2,
+        "affected": true,
+        "lost_hours": 1,
+        "reasons": [
+          "Institutional calendar closure on day 0"
+        ]
+      }
+    ],
+    "unrecoverable_events": [],
+    "bottleneck_resources": [
+      {
+        "resource": "Calendar Slots",
+        "status": "Constrained by scenario closure",
+        "details": "1 days affected"
+      },
+      {
+        "resource": "Friday Post-Lunch",
+        "status": "Closed in certified profile",
+        "details": "Slots 4-8 unavailable on Friday"
+      }
+    ],
+    "closed_windows": [
+      {
+        "day": 0,
+        "slots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "faculty_capacity_pressure": {
+      "Prof. Shaheera CR": 1,
+      "Prof. Atukara Ashok": 1
+    },
+    "section_capacity_pressure": {
+      "BIC_ TIGERS_2024": 2
+    },
+    "room_capacity_pressure": {
+      "ALL_ROOMS": 2
+    },
+    "synchronization_pressure": {
+      "shared_events_count": 0,
+      "multi_section_events_count": 0,
+      "multi_faculty_events_count": 0
+    },
+    "lab_window_pressure": {
+      "affected_labs_count": 0,
+      "note": "Requires 2 consecutive available slots outside Friday post-lunch"
+    },
+    "policy_conflicts": [
+      {
+        "policy": "HARD_ROOM_COLLISION",
+        "status": "OBEYED",
+        "conflicts": 0
+      },
+      {
+        "policy": "HARD_FACULTY_COLLISION",
+        "status": "OBEYED",
+        "conflicts": 0
+      },
+      {
+        "policy": "HARD_SECTION_COLLISION",
+        "status": "OBEYED",
+        "conflicts": 0
+      }
+    ],
+    "deficit_summary": {
+      "affected_events_count": 2,
+      "affected_event_hours": 2,
+      "affected_section_hours": 2,
+      "affected_faculty_hours": 2,
+      "affected_room_hours": 2,
+      "affected_labs": 0,
+      "affected_shared_events": 0,
+      "affected_multi_section_events": 0,
+      "affected_multi_faculty_events": 0,
+      "breakdown_by_day": {
+        "0": 2
+      },
+      "breakdown_by_section": {
+        "BIC_ TIGERS_2024": 2
+      },
+      "breakdown_by_faculty": {
+        "Prof. Shaheera CR": 1,
+        "Prof. Atukara Ashok": 1
+      }
+    },
+    "explanations": [
+      {
+        "event_id": 0,
+        "subject": "Behavioural & Quantitative Transactions Theory",
+        "why_affected": [
+          "Institutional calendar closure on day 0"
+        ],
+        "lost_hours": 1,
+        "recovery_status": "RECOVERED",
+        "hard_constraints_enforced": [
+          "NO_DOUBLE_BOOKING",
+          "SLOT_AVAILABILITY",
+          "LAB_CONTINUITY"
+        ]
+      },
+      {
+        "event_id": 1,
+        "subject": "Behavioural & Quantitative Transactions Theory",
+        "why_affected": [
+          "Institutional calendar closure on day 0"
+        ],
+        "lost_hours": 1,
+        "recovery_status": "RECOVERED",
+        "hard_constraints_enforced": [
+          "NO_DOUBLE_BOOKING",
+          "SLOT_AVAILABILITY",
+          "LAB_CONTINUITY"
+        ]
+      }
+    ]
+  },
+  "engine_versions": {
+    "simulation_engine": "10.0.0",
+    "generation_engine": "9.0.0"
+  },
+  "created_by": "usr_admin",
+  "created_at": "2026-09-13T21:12:12.465986+00:00",
+  "result_fingerprint": "ea5edda4f6a0471f9544489c863a481c6d4f42b3a5ac0297f34ccf83c7199707"
+}

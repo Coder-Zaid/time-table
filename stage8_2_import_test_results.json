@@ -1,0 +1,165 @@
+{
+  "summary": {
+    "passed": 39,
+    "failed": 0,
+    "total": 39
+  },
+  "results": {
+    "T8_2_1": {
+      "status": "PASS",
+      "description": "Detect FET Groups HTML."
+    },
+    "T8_2_2": {
+      "status": "PASS",
+      "description": "Detect FET Rooms HTML."
+    },
+    "T8_2_3": {
+      "status": "PASS",
+      "description": "Detect FET Teachers HTML."
+    },
+    "T8_2_4": {
+      "status": "PASS",
+      "description": "Upload all three FET files together."
+    },
+    "T8_2_5": {
+      "status": "PASS",
+      "description": "Reconcile three FET views into exactly 598 master events."
+    },
+    "T8_2_6": {
+      "status": "PASS",
+      "description": "Verify exactly 748 student-hours."
+    },
+    "T8_2_7": {
+      "status": "PASS",
+      "description": "Verify exactly 981 faculty-hours."
+    },
+    "T8_2_8": {
+      "status": "PASS",
+      "description": "Verify exactly 75 labs."
+    },
+    "T8_2_9": {
+      "status": "PASS",
+      "description": "Verify exactly 38 shared events."
+    },
+    "T8_2_10": {
+      "status": "PASS",
+      "description": "Verify exactly 595 roomed events."
+    },
+    "T8_2_11": {
+      "status": "PASS",
+      "description": "Verify exactly 3 NO_ROOM events."
+    },
+    "T8_2_12": {
+      "status": "PASS",
+      "description": "Verify six split/nested subgroup event semantics."
+    },
+    "T8_2_13": {
+      "status": "PASS",
+      "description": "Verify no duplicate events after multi-file reconciliation."
+    },
+    "T8_2_14": {
+      "status": "PASS",
+      "description": "Import valid CSV."
+    },
+    "T8_2_15": {
+      "status": "PASS",
+      "description": "Import CSV with alternate delimiter."
+    },
+    "T8_2_16": {
+      "status": "PASS",
+      "description": "Import XLSX with multiple worksheets."
+    },
+    "T8_2_17": {
+      "status": "PASS",
+      "description": "Import canonical JSON."
+    },
+    "T8_2_18": {
+      "status": "PASS",
+      "description": "Reject unsupported PDF."
+    },
+    "T8_2_19": {
+      "status": "PASS",
+      "description": "Reject malformed JSON."
+    },
+    "T8_2_20": {
+      "status": "PASS",
+      "description": "Detect duplicate IDs."
+    },
+    "T8_2_21": {
+      "status": "PASS",
+      "description": "Detect missing required fields."
+    },
+    "T8_2_22": {
+      "status": "PASS",
+      "description": "Detect invalid faculty reference."
+    },
+    "T8_2_23": {
+      "status": "PASS",
+      "description": "Detect invalid section reference."
+    },
+    "T8_2_24": {
+      "status": "PASS",
+      "description": "Detect invalid room reference."
+    },
+    "T8_2_25": {
+      "status": "PASS",
+      "description": "Detect impossible lab duration."
+    },
+    "T8_2_26": {
+      "status": "PASS",
+      "description": "Require confirmation for ambiguous entity mapping."
+    },
+    "T8_2_27": {
+      "status": "PASS",
+      "description": "Verify source provenance hash."
+    },
+    "T8_2_28": {
+      "status": "PASS",
+      "description": "Verify original source remains unchanged."
+    },
+    "T8_2_29": {
+      "status": "PASS",
+      "description": "Verify imported project is isolated from certified project."
+    },
+    "T8_2_30": {
+      "status": "PASS",
+      "description": "Verify imported canonical dataset matches expected baseline fixture."
+    },
+    "T8_2_31": {
+      "status": "PASS",
+      "description": "Verify UI upload flow."
+    },
+    "T8_2_32": {
+      "status": "PASS",
+      "description": "Verify mapping UI."
+    },
+    "T8_2_33": {
+      "status": "PASS",
+      "description": "Verify validation UI."
+    },
+    "T8_2_34": {
+      "status": "PASS",
+      "description": "Verify import confirmation UI."
+    },
+    "T8_2_35": {
+      "status": "PASS",
+      "description": "Verify browser refresh does not corrupt draft import."
+    },
+    "T8_2_36": {
+      "status": "PASS",
+      "description": "Verify no JavaScript console errors."
+    },
+    "T8_2_37": {
+      "status": "PASS",
+      "description": "Verify responsive UI."
+    },
+    "T8_2_38": {
+      "status": "PASS",
+      "description": "Verify Stage 7 regression remains PASS."
+    },
+    "T8_2_39": {
+      "status": "PASS",
+      "description": "Verify Stage 8.1 regression remains PASS."
+    }
+  }
+}

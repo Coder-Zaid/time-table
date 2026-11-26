@@ -1,0 +1,33 @@
+{
+  "simulation_id": "sim_9090570f2c46",
+  "project_id": "proj_woxsen_fall_2026",
+  "version_id": "v1_d7fd7d4d",
+  "scenarios": [
+    {
+      "scenario_id": "sc_dbg",
+      "scenario_type": "HOLIDAY",
+      "name": "H",
+      "description": "D",
+      "project_id": "proj_woxsen_fall_2026",
+      "source_project_version_id": "v1_d7fd7d4d",
+      "policy_snapshot_id": "pol",
+      "created_by": "u",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-07",
+      "affected_dates": [],
+      "affected_days": [
+        0
+      ],
+      "closed_slots": [],
+      "affected_sections": [],
+      "affected_faculty": [],
+      "affected_rooms": [],
+      "affected_buildings": [],
+      "reason": "Unspecified closure",
+      "severity": "MEDIUM",
+      "status": "ACTIVE",
+      "created_at": "2026-09-13T21:12:12.461566+00:00",
+      "fingerprint": "aee93a9638213d89645c7b22b0ff9103b33eaa3fd7520174245c140d5432b92d"
+    }
+  ]
+}

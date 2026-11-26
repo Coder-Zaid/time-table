@@ -1,0 +1,80 @@
+{
+  "stage": "8.4",
+  "name": "Teacher Timetable Editor, Manual Scheduling & Constraint-Safe Editing",
+  "status": "PASS",
+  "marker": "STAGE_8_4_PASS — MANUAL TIMETABLE EDITOR & CONSTRAINT-SAFE SCHEDULING CERTIFIED",
+  "timestamp": "2026-09-13T21:58:00+05:30",
+  "preflight": {
+    "status": "PASS",
+    "required_previous_stages": [
+      "STAGE_7_PASS — PRODUCTION USER ACCEPTANCE CERTIFIED",
+      "STAGE_8_1_PASS — TIMETABLE CREATION PLATFORM FOUNDATION CERTIFIED",
+      "STAGE_8_2_PASS — UNIVERSAL TIMETABLE IMPORT CERTIFIED",
+      "STAGE_8_3_PASS — TEACHER AUTHENTICATION, WORKSPACE & PROJECT OWNERSHIP CERTIFIED"
+    ],
+    "golden_hashes": {
+      "production_schedule.json": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+      "stage5_3_corrected_optimized_schedule.json": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+      "production_schedule.csv": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643"
+    }
+  },
+  "tests": {
+    "total": 75,
+    "passed": 75,
+    "failed": 0,
+    "test_suite": "run_stage8_4_tests.py"
+  },
+  "browser_uat": {
+    "status": "PASS",
+    "video_recording": "stage8_4_editor_uat_1789316426041.webp",
+    "scenarios_verified": [
+      "Login as teacher (usr_teach_003)",
+      "Open teacher-owned project workspace",
+      "Load editor canvas with Section, Faculty, Room, and Master views",
+      "Event selection and Selected Event Inspector display",
+      "Keyboard alternative reschedule controls (Day, Start Slot, Room)",
+      "Interactive drag-and-drop event move with constraint preview",
+      "Rejection of hard constraint violations (Friday post-lunch closure, overlaps)",
+      "Time block creation and rendering across Section, Faculty, Room, and Project scopes",
+      "Undo / Redo stack mutation safety and state restoration",
+      "Save Draft persistence to localStorage / project workspace",
+      "Create Version snapshot creation with immutable timestamp",
+      "Authorization enforcement: viewers cannot edit, other teachers cannot edit unauthorized projects",
+      "Certified golden data remains strictly read-only"
+    ]
+  },
+  "golden_hashes": {
+    "production_schedule.json": "MATCH (fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b)",
+    "stage5_3_corrected_optimized_schedule.json": "MATCH (8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a)",
+    "production_schedule.csv": "MATCH (47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643)",
+    "status": "PASS"
+  },
+  "original_sources": "UNCHANGED",
+  "security": {
+    "status": "PASS",
+    "authentication_required": true,
+    "authorization_required": true,
+    "role_default_deny": true,
+    "frozen_pinned_protection": true,
+    "certified_production_read_only": true,
+    "audit_attribution": true,
+    "zero_secrets_stored": true
+  },
+  "performance": {
+    "status": "PASS",
+    "test_suite_execution_seconds": 0.042,
+    "ui_responsiveness": "Instantaneous DOM mutation without full-page reloads",
+    "desktop_support": ["1920x1080", "1440x900", "1280x720", "1024x768"]
+  },
+  "console": "0 errors / 0 warnings",
+  "future_scope_leak": "NONE (No automatic optimization, generator, holiday recovery, what-if, or public publishing implemented)",
+  "files_created": [
+    "schedule_editor_service.py",
+    "run_stage8_4_tests.py",
+    "stage8_4_implementation_report.json",
+    "stage8_4_implementation_report.md"
+  ],
+  "files_modified": [
+    "index.html"
+  ]
+}

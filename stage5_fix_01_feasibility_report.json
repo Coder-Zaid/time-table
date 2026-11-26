@@ -1,0 +1,15 @@
+{
+  "status": "FEASIBLE",
+  "p0_hard_feasibility": true,
+  "friday_post_lunch_ban_enforced": true,
+  "friday_forbidden_slots": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "variables_count": 20289,
+  "constraints_count": 7308,
+  "solver_status": "Optimal (HiGHS Status 7: Optimal)"
+}

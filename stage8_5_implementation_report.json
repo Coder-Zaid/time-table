@@ -1,0 +1,58 @@
+{
+  "stage": "8.5",
+  "name": "Constraint & Policy Builder",
+  "status": "PASS",
+  "marker": "STAGE_8_5_PASS — CONSTRAINT & POLICY BUILDER CERTIFIED",
+  "timestamp": "2026-09-13T22:18:25Z",
+  "tests": {
+    "total": 87,
+    "passed": 87,
+    "failed": 0
+  },
+  "golden_hashes": {
+    "production_schedule.json": {
+      "status": "PASS",
+      "expected": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+      "actual": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b"
+    },
+    "stage5_3_corrected_optimized_schedule.json": {
+      "status": "PASS",
+      "expected": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+      "actual": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a"
+    },
+    "production_schedule.csv": {
+      "status": "PASS",
+      "expected": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643",
+      "actual": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643"
+    }
+  },
+  "original_sources": "UNCHANGED",
+  "browser_uat": "PASS",
+  "security": "PASS",
+  "performance": "PASS",
+  "console": "0 errors / 0 warnings required",
+  "future_scope_leak": "NONE",
+  "policy_architecture": {
+    "models": ["PolicyModel", "RuleDefinition", "PolicyValidationResult"],
+    "categories": ["HARD", "SOFT", "PREFERENCE"],
+    "scopes": [
+      "PROJECT", "SECTION", "STUDENT_GROUP", "FACULTY", "SUBJECT",
+      "ROOM", "EVENT", "DAY", "SLOT", "EVENT_TYPE"
+    ],
+    "registered_rules_count": 45,
+    "weight_semantics": "HARD strictly rejects weight; SOFT and PREFERENCE require weight > 0",
+    "conflict_detection": "Deep validation detects min>max hours, impossible working hours/lunch windows, and contradicting scopes prior to version activation",
+    "templates": ["GENERAL_UNIVERSITY", "WOXSEN_CERTIFIED_PROFILE"],
+    "friday_closure_semantics": "Configurable policy in WOXSEN_CERTIFIED_PROFILE, not a universal platform default"
+  },
+  "files_created": [
+    "policy_engine.py",
+    "run_stage8_5_tests.py",
+    "stage8_5_implementation_report.json",
+    "stage8_5_implementation_report.md"
+  ],
+  "files_modified": [
+    "schedule_editor_service.py",
+    "index.html"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "stage": "8.6",
+  "name": "Timetable Feasibility Analysis",
+  "status": "PASS",
+  "certification_marker": "STAGE_8_6_PASS — TIMETABLE FEASIBILITY ANALYSIS CERTIFIED",
+  "timestamp": "2026-09-14T02:15:00Z",
+  "analyzer_version": "8.6.0",
+  "objective_achieved": true,
+  "summary": "Engineered a production-grade deterministic feasibility-analysis layer that evaluates whether a canonical timetable project, its teaching requirements, resources, calendar, availability, blocked time, and active policy set can theoretically produce at least one valid timetable. Strictly prohibited timetable generation, optimization, and schedule mutation. Enforced deterministic infeasibility certificates, resource bottleneck detection, aggregate workload and slot-demand lower-bound calculations, and separate evaluation of current schedule compliance from project-level feasibility.",
+  "files_created": [
+    "feasibility_engine.py",
+    "run_stage8_6_tests.py",
+    "stage_8_6_implementation_report.json",
+    "stage_8_6_implementation_report.md",
+    "stage_8_6_test_results.json",
+    "stage_8_6_certification_report.json"
+  ],
+  "files_modified": [
+    "auth_service.py",
+    "index.html"
+  ],
+  "categories_implemented": [
+    { "id": "DATASET_INTEGRITY", "name": "Dataset Integrity Feasibility" },
+    { "id": "RESOURCE_FEASIBILITY", "name": "Resource Feasibility" },
+    { "id": "TIME_WINDOW_FEASIBILITY", "name": "Time Window Feasibility" },
+    { "id": "EVENT_DURATION_FEASIBILITY", "name": "Event Duration Feasibility" },
+    { "id": "AVAILABILITY_FEASIBILITY", "name": "Availability Feasibility" },
+    { "id": "CLOSURE_FEASIBILITY", "name": "Holiday and Closure Feasibility" },
+    { "id": "SYNCHRONIZATION_FEASIBILITY", "name": "Synchronization Feasibility" },
+    { "id": "BLOCKED_TIME_FEASIBILITY", "name": "Blocked-Time Feasibility" },
+    { "id": "HARD_POLICY_FEASIBILITY", "name": "Hard Policy Feasibility" },
+    { "id": "CAPACITY_FEASIBILITY", "name": "Capacity and Equipment Feasibility" },
+    { "id": "WORKLOAD_FEASIBILITY", "name": "Aggregate Workload Feasibility" },
+    { "id": "SLOT_DEMAND", "name": "Slot-Demand Lower Bounds" },
+    { "id": "ROOM_DEMAND", "name": "Room-Demand Lower Bounds" },
+    { "id": "FACULTY_DEMAND", "name": "Faculty-Demand Lower Bounds" },
+    { "id": "SECTION_DEMAND", "name": "Section-Demand Lower Bounds" }
+  ],
+  "status_taxonomy": {
+    "FEASIBLE": "All mandatory analytical checks pass with zero hard bottlenecks.",
+    "FEASIBLE_WITH_WARNINGS": "Mandatory feasibility checks pass, but material soft-policy/capacity pressure exists.",
+    "INFEASIBLE": "Deterministic hard contradiction or lower-bound violation proves no valid timetable can exist.",
+    "REQUIRES_REVIEW": "Unresolved ambiguity, missing references, or unsupported semantics require human review.",
+    "UNKNOWN": "Technical failure state, never silently treated as FEASIBLE."
+  },
+  "golden_hashes": {
+    "production_schedule.json": {
+      "expected": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+      "status": "PASS"
+    },
+    "stage5_3_corrected_optimized_schedule.json": {
+      "expected": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+      "status": "PASS"
+    },
+    "production_schedule.csv": {
+      "expected": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643",
+      "status": "PASS"
+    }
+  },
+  "original_fet_sources": "UNCHANGED",
+  "security": "PASS",
+  "performance": "PASS",
+  "future_scope_leak": "NONE",
+  "known_limitations": [
+    "Feasibility engine conducts pure analytical lower-bound evaluations; it intentionally does not solve or optimize schedules.",
+    "Bipartite matching and polyhedral constraint facets are evaluated strictly within deterministic arithmetic bounds."
+  ]
+}

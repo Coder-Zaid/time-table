@@ -1,0 +1,106 @@
+{
+  "stage": "7.0",
+  "name": "Production User Acceptance, Edge-Case & Stress Certification",
+  "status": "STAGE_7_PASS",
+  "decision": "STAGE_7_PASS — PRODUCTION USER ACCEPTANCE CERTIFIED",
+  "timestamp": "2026-09-13T18:12:00Z",
+  "preflight_integrity": {
+    "status": "PASS",
+    "production_schedule_sha256": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+    "stage5_3_schedule_sha256": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+    "csv_export_sha256": "47a555a3267a354d6b34548f76d9857d771925a603ff7998bdf0e2510ac67643"
+  },
+  "certified_invariants": {
+    "master_events": 598,
+    "student_section_occupancy_hours": 748,
+    "faculty_allocation_hours": 981,
+    "labs": 75,
+    "synchronized_shared_events": 38,
+    "frozen_roomed_events": 595,
+    "pinned_no_room_events": 3,
+    "friday_post_lunch_event_hours": 0,
+    "section_collisions": 0,
+    "faculty_collisions": 0,
+    "room_collisions": 0,
+    "leave_clashes": 0
+  },
+  "tests": {
+    "T7_1_startup_and_load": {
+      "status": "PASS",
+      "findings": "Application loads cleanly on localhost:8000, header displays Stage 5.3 Certified and Fri 13:00-18:00 Closed badges, 0 console errors, 0 console warnings."
+    },
+    "T7_2_student_section_view": {
+      "status": "PASS",
+      "findings": "Section grid verified across multiple sections (BIC_ TIGERS_2024, AIML_TIGERS_2025). 2-hour labs span seamlessly, Friday slots 4-8 are visibly empty displaying 'No Classes Post-Lunch', 0 section overlaps."
+    },
+    "T7_3_faculty_view": {
+      "status": "PASS",
+      "findings": "Faculty grid verified across multiple professors (Dr Harshavardhan Reddy Kalluru, Dr Riaz Shaik). 0 faculty collisions, contiguous labs, Friday post-lunch clean empty state."
+    },
+    "T7_4_room_view": {
+      "status": "PASS",
+      "findings": "Room grid verified for theory halls (Room 302, C-202) and specialized labs (Advanced Electrical & Electronics Lab Room No-C105). 0 room clashes, 595 rooms frozen, 0 Friday post-lunch room bookings."
+    },
+    "T7_5_master_register": {
+      "status": "PASS",
+      "findings": "Master register lists all 598 scheduled events. Filtering by day, type, room, and keyword operates without state leakage. Reset button cleanly restores full 598 events."
+    },
+    "T7_6_search_edge_cases": {
+      "status": "PASS",
+      "findings": "Search tested with exact subjects, partial substrings, faculty surnames, section IDs, room IDs, mixed-case, whitespace, and non-matching queries. Returns clean non-breaking empty state on no match."
+    },
+    "T7_7_event_detail_modal": {
+      "status": "PASS",
+      "findings": "Detailed inspection modal tested for theory, labs, shared, multi-faculty, and NO_ROOM events. Displays complete metadata, supports Enter key invocation and Escape key dismissal."
+    },
+    "T7_8_no_room_edge_cases": {
+      "status": "PASS",
+      "findings": "All 3 pinned NO_ROOM events (#595, #596, #597) verified. Display explicit NO_ROOM tag without physical room allocation; day and slot positions 100% preserved."
+    },
+    "T7_9_lab_integrity": {
+      "status": "PASS",
+      "findings": "All 75 labs verified to have duration 2, occupying two contiguous slots in a single room, with 0 labs crossing Friday slot 3 into slot 4."
+    },
+    "T7_10_shared_event_integrity": {
+      "status": "PASS",
+      "findings": "All 38 synchronized shared events verified. Synchronized cohorts and multi-faculty assignments reflected without artificial duplicate rows."
+    },
+    "T7_11_split_event_integrity": {
+      "status": "PASS",
+      "findings": "All 6 nested/split subgroup events (BIC__TIGERS_2025: #209, #214, #215 and DS__TIGERS_2025: #220, #231, #235) verified as independent sessions without parent conflict."
+    },
+    "T7_12_friday_closed_state": {
+      "status": "PASS",
+      "findings": "Friday slots 0-3 contain allowed classes (22, 28, 24, 3 event-hours). Friday slots 4-8 contain exactly 0 teaching hours across all sections, faculty, and rooms."
+    },
+    "T7_13_navigation_and_state": {
+      "status": "PASS",
+      "findings": "Rapid switching across all 5 navigation views (Section, Faculty, Room, Master, Metrics) produces zero view desynchronization, zero filter corruption, and zero stale state."
+    },
+    "T7_14_responsive_layout": {
+      "status": "PASS",
+      "findings": "Tested at 1920x1080, 1440x900, 1280x720, and 1024x768. Layout remains stable with zero text clipping, no horizontal page overflow, and crisp grid alignment."
+    },
+    "T7_15_keyboard_accessibility": {
+      "status": "PASS",
+      "findings": "Full keyboard navigation supported: Tab focus ring visible on all interactive elements, Enter opens event details, Escape closes modal."
+    },
+    "T7_16_print_and_export": {
+      "status": "PASS",
+      "findings": "CSV export contains exactly 598 rows with 100% field parity against JSON. Print stylesheet tested via @media print omitting UI chrome."
+    },
+    "T7_17_black_box_data_integrity": {
+      "status": "PASS",
+      "findings": "Independent reconstruction of production_schedule.json confirms exact match with UI counters: 598 events, 748 student-hrs, 981 faculty-hrs, 0 Friday post-lunch hours."
+    },
+    "T7_18_refresh_persistence_and_runtime_stability": {
+      "status": "PASS",
+      "findings": "Repeated reload, view switching, filter toggling, and modal interactions produce zero console errors, zero warnings, and zero memory degradation."
+    },
+    "T7_19_final_regression": {
+      "status": "PASS",
+      "findings": "All file hashes unchanged, original FET HTML files untouched, 0 collisions, 0 leave clashes, 0 discrepancies."
+    }
+  },
+  "recording": "stage7_uat_deep_audit_1789303028667.webp"
+}

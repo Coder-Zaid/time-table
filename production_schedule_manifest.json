@@ -1,0 +1,58 @@
+{
+  "manifest_version": "2.0.0",
+  "stage": "6.0",
+  "status": "SUBSTAGE_6_1_PASS",
+  "generation_timestamp": "2026-09-13T12:20:02.583606Z",
+  "source_filename": "stage5_3_corrected_optimized_schedule.json",
+  "source_sha256": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a",
+  "production_filename": "production_schedule.json",
+  "production_sha256": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+  "hash_algorithm": "SHA-256",
+  "stage_5_3_certification_report": "stage5_3_deep_certification_report.json",
+  "event_count": 598,
+  "student_hours": 748,
+  "faculty_hours": 981,
+  "lab_count": 75,
+  "shared_event_count": 38,
+  "frozen_room_count": 595,
+  "pinned_no_room_count": 3,
+  "friday_post_lunch_event_hours": 0,
+  "invariants": {
+    "master_events": 598,
+    "student_section_occupancy_hours": 748,
+    "faculty_allocation_occupancy_hours": 981,
+    "theory_events": 523,
+    "lab_events": 75,
+    "shared_multi_section_events": 38,
+    "frozen_roomed_events": 595,
+    "pinned_no_room_events": 3,
+    "unchanged_placements": 399,
+    "changed_placements": 199,
+    "retention_percent": 66.7,
+    "friday_post_lunch_event_hours": 0
+  },
+  "working_hours": "09:00 - 18:00",
+  "time_slots": [
+    "09:00 - 10:00",
+    "10:00 - 11:00",
+    "11:00 - 12:00",
+    "12:00 - 13:00",
+    "13:00 - 14:00",
+    "14:00 - 15:00",
+    "15:00 - 16:00",
+    "16:00 - 17:00",
+    "17:00 - 18:00"
+  ],
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ],
+  "source_files": [
+    "B.Tech  2023, 2024 , 2025 & 2026, BCA & M.Tech Timetable (7th September 2026 - 11th September 2026) Groups.html",
+    "B.Tech  2023, 2024 , 2025 & 2026, BCA & M.Tech Timetable (7th September 2026 - 11th September 2026) Rooms.html",
+    "B.Tech  2023, 2024 , 2025 & 2026, BCA & M.Tech Timetable (7th September 2026 - 11th September 2026) Teachers.html"
+  ]
+}

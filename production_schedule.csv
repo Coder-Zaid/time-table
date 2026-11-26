@@ -1,0 +1,599 @@
+event_id,subject,event_type,duration,day_name,day_idx,start_slot,end_slot,start_time,end_time,room,building,floor,sections,faculty,is_lab,is_shared,is_roomless,is_pinned
+0,Behavioural & Quantitative Transactions Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Prof. Shaheera CR,False,False,False,False
+1,Behavioural & Quantitative Transactions Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Prof. Atukara Ashok,False,False,False,False
+2,IoT Security Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Karthick N,False,False,False,False
+3,Digital Forensics Lab,Lab,2,Tuesday,1,0,2,09:00,11:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu; Ms. G Kavyanjali,True,False,False,False
+4,Digital Forensics Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu,False,False,False,False
+5,Essentials of Blockchain Technology Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu,False,False,False,False
+6,Essentials of Blockchain Technology Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu,False,False,False,False
+7,IoT Security Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Karthick N; Mr. Idapalapati Gokul Nand,True,False,False,False
+8,Digital Forensics Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu,False,False,False,False
+9,IoT Security Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Karthick N,False,False,False,False
+10,Essentials of Blockchain Technology Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu,False,False,False,False
+11,Digital Forensics Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu,False,False,False,False
+12,IoT Security Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Karthick N,False,False,False,False
+13,Essentials of Blockchain Technology Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : C-202,Block C,2,BIC_ TIGERS_2024,Dr. Rajukumar Kalimuthu; Ms. Tekur Shivani,True,False,False,False
+14,Industry – Integrated Technical Communication Lab,Lab,2,Monday,0,1,3,10:00,12:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Dharmendra Kumar Mishra; Mr Nelson; Ms. Vridhi Vazirani,True,False,False,False
+15,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+16,Web Technologies Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Prof. Veeresh Biradar,False,False,False,False
+17,Discrete Mathematics for Computer Science Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Laba Kumar,False,False,False,False
+18,Industry – Integrated Technical Communication Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Dharmendra Kumar Mishra,False,False,False,False
+19,Advanced Communication and Logical thinking Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Prof. Abhilash Nair,False,False,False,False
+20,Advanced Communication and Logical thinking Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Prof. Atukara Ashok,False,False,False,False
+21,Design Analysis and Algorithms Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. M Shiva Rama Krishna,False,False,False,False
+22,Database Management Systems Theory,Theory,1,Tuesday,1,5,6,14:00,15:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Amogh Deshmukh,False,False,False,False
+23,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+24,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. M Shiva Rama Krishna,False,False,False,False
+25,Web Technologies Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Prof. Veeresh Biradar,False,False,False,False
+26,Database Management Systems Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Amogh Deshmukh,False,False,False,False
+27,Industry – Integrated Technical Communication Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Dharmendra Kumar Mishra,False,False,False,False
+28,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Laba Kumar,False,False,False,False
+29,Design Analysis and Algorithms Lab,Lab,2,Wednesday,2,7,9,16:00,18:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. M Shiva Rama Krishna; Mr Syed Varish,True,False,False,False
+30,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Laba Kumar,False,False,False,False
+31,Database Management Systems Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Amogh Deshmukh; Mr. Sai Teja; Ms. Bodapudi  Hema Satya Sri,True,False,False,False
+32,Database Management Systems Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. Amogh Deshmukh,False,False,False,False
+33,Web Technologies Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Prof. Veeresh Biradar,False,False,False,False
+34,Design Analysis and Algorithms Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. M Shiva Rama Krishna,False,False,False,False
+35,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+36,Web Technologies Lab,Lab,2,Tuesday,1,0,2,09:00,11:00,Room no : C-203,Block C,2,CSE_TIGERS_2025,Mr K Sandeep; Mr. C. Sree Harshith Reddy; Mr. Neeli Sai Hakesh; Ms. Ojashwini Dubey; Ms. Sneha Reddy; Prof. Veeresh Biradar,True,False,False,False
+37,Cloud Computing Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+38,Deep Learning Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+39,Cyber Compliance and Risk Governance Theory,Theory,1,Monday,0,5,6,14:00,15:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+40,Cyber Security Incident Handling Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Dr. Rajukumar Kalimuthu,False,False,False,False
+41,Behavioural & Quantitative Transactions Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Prof. Shaheera CR,False,False,False,False
+42,Cloud Computing Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+43,Data Analytics and Visualization Lab,Lab,2,Thursday,3,7,9,16:00,18:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Mr R Gopinadh; Mr. Vishnu Vardhan Pingali; Prof. Mulkala Saritha,True,False,False,False
+44,Cyber Security Incident Handling Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Dr. Rajukumar Kalimuthu,False,False,False,False
+45,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Prof. Shaheera CR,False,False,False,False
+46,Behavioural & Quantitative Transactions Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Prof. Atukara Ashok,False,False,False,False
+47,Data Analytics and Visualization Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Prof. Mulkala Saritha,False,False,False,False
+48,Deep Learning Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+49,Cyber Security Incident Handling Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Dr. Rajukumar Kalimuthu,False,False,False,False
+50,Combinatorial & Leadership Mastery Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Prof. Avinash,False,False,False,False
+51,Deep Learning Lab,Lab,2,Thursday,3,0,2,09:00,11:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Mr. Shaik Nageen; Ms. Shaik Sajeera Begum; Ms. Sheeba Rani,True,False,False,False
+52,Cloud Computing Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+53,Data Analytics and Visualization Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Prof. Mulkala Saritha,False,False,False,False
+54,Cyber Compliance and Risk Governance Lab,Lab,2,Monday,0,1,3,10:00,12:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Prof. Meher Gayatri Devi Tiwari,True,False,False,False
+55,Cyber Compliance and Risk Governance Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : C-204,Block C,2,BIC_TIGERS_ 2023,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+56,Data Analytics and Visualization Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Prof. Mulkala Saritha,False,False,False,False
+57,Cloud Computing Lab,Lab,2,Friday,4,1,3,10:00,12:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Dr. B Sanjai Prasada Rao; Mr ALI,True,False,False,False
+58,Deep Learning Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : C-204,Block C,2,AIML_WHALES_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+59,Cryptography & Network Security Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+60,Cryptography & Network Security Lab,Lab,2,Wednesday,2,1,3,10:00,12:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Mr Syed Varish; Mr. Shaik Nageen; Prof. Meher Gayatri Devi Tiwari,True,False,False,False
+61,Essentials of Generative AI Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Lokendra Gour,False,False,False,False
+62,Cloud Computing Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Dr. M. Upendra Kumar,False,False,False,False
+63,Cloud Computing Lab,Lab,2,Monday,0,1,3,10:00,12:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Dr. M. Upendra Kumar; Ms. Tekur Shivani,True,False,False,False
+64,Reinforcement Learning Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+65,Essentials of Generative AI Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Lokendra Gour,False,False,False,False
+66,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Prof. Avinash,False,False,False,False
+67,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Prof. Shaheera CR,False,False,False,False
+68,Cloud Computing Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Dr. M. Upendra Kumar,False,False,False,False
+69,Full Stack Development Lab,Lab,2,Monday,0,7,9,16:00,18:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Mr. Ismail Suleiman; Mr. P Rajashekhar; Prof. Dileep Kumar Mahadevabatla,True,False,False,False
+70,Reinforcement Learning Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+71,Cloud Computing Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Dr. M. Upendra Kumar,False,False,False,False
+72,Cryptography & Network Security Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+73,Full Stack Development Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+74,Reinforcement Learning Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+75,Essentials of Generative AI Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Lokendra Gour,True,False,False,False
+76,Essentials of Generative AI Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : Law Block E-301,Law Block (E),3,AIML_TIGERS_2023,Dr. Lokendra Gour,False,False,False,False
+77,Full Stack Development Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+78,Behavioural & Quantitative Transactions Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Shaheera CR,False,False,False,False
+79,Behavioural & Quantitative Transactions Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Atukara Ashok,False,False,False,False
+80,Cryptography & Network Security Theory,Theory,1,Friday,4,3,4,12:00,13:00,Room no : Law Block E-301,Law Block (E),3,CSE_TIGERS_2024,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+81,Cloud Computing Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Dr. Rupinder Saini,False,False,False,False
+82,Full Stack Development Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+83,Full Stack Development Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Mr. Ismail Suleiman; Mr. P Rajashekhar; Prof. Dileep Kumar Mahadevabatla,True,False,False,False
+84,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Prof. Avinash,False,False,False,False
+85,Reinforcement Learning Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+86,Essentials of Generative AI Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Lokendra Gour,False,False,False,False
+87,Cloud Computing Lab,Lab,2,Tuesday,1,0,2,09:00,11:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Dr. Rupinder Saini; Mr. Manideep; Ms. Tekur Shivani,True,False,False,False
+88,Behavioural & Quantitative Transactions Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Shaheera CR,False,False,False,False
+89,Cloud Computing Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Dr. Rupinder Saini,False,False,False,False
+90,Essentials of Generative AI Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Lokendra Gour,False,False,False,False
+91,Reinforcement Learning Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+92,Essentials of Generative AI Lab,Lab,2,Tuesday,1,7,9,16:00,18:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Lokendra Gour,True,False,False,False
+93,Cloud Computing Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Dr. Rupinder Saini,False,False,False,False
+94,Cryptography & Network Security Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+95,Cryptography & Network Security Lab,Lab,2,Friday,4,1,3,10:00,12:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Mr. Shaik Nageen; Ms. G Kavyanjali; Prof. Meher Gayatri Devi Tiwari,True,False,False,False
+96,Essentials of Generative AI Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Lokendra Gour,False,False,False,False
+97,Full Stack Development Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+98,Cryptography & Network Security Theory,Theory,1,Thursday,3,3,4,12:00,13:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+99,Reinforcement Learning Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+100,Combinatorial & Leadership Mastery Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : Law Block E-302,Law Block (E),3,AIML_RHINOCERS_2023,Prof. Shaheera CR,False,False,False,False
+101,Behavioural & Quantitative Transactions Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Atukara Ashok,False,False,False,False
+102,Cryptography & Network Security Theory,Theory,1,Wednesday,2,5,6,14:00,15:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Meher Gayatri Devi Tiwari,False,False,False,False
+103,Full Stack Development Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-302,Law Block (E),3,CSE_RHINOS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+104,Cryptography & Network Security Lab,Lab,2,Monday,0,0,2,09:00,11:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Srikanth Jannu; Mr. Sai Teja; Ms. G Kavyanjali,True,False,False,False
+105,Cloud Computing Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Rupinder Saini,False,False,False,False
+106,Reinforcement Learning Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+107,Essentials of Generative AI Lab,Lab,2,Tuesday,1,1,3,10:00,12:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Lokendra Gour,True,False,False,False
+108,Essentials of Generative AI Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Lokendra Gour,False,False,False,False
+109,Combinatorial & Leadership Mastery Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Prof. Shaheera CR,False,False,False,False
+110,Full Stack Development Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+111,Cryptography & Network Security Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Srikanth Jannu,False,False,False,False
+112,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,5,6,14:00,15:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Prof. Avinash,False,False,False,False
+113,Essentials of Generative AI Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Lokendra Gour,False,False,False,False
+114,Reinforcement Learning Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+115,Behavioural & Quantitative Transactions Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Prof. Shaheera CR,False,False,False,False
+116,Cryptography & Network Security Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Srikanth Jannu,False,False,False,False
+117,Cloud Computing Lab,Lab,2,Thursday,3,7,9,16:00,18:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Rupinder Saini; Ms. Tekur Shivani,True,False,False,False
+118,Behavioural & Quantitative Transactions Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Prof. Atukara Ashok,False,False,False,False
+119,Full Stack Development Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Prof. Dileep Kumar Mahadevabatla,False,False,False,False
+120,Cloud Computing Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Rupinder Saini,False,False,False,False
+121,Essentials of Generative AI Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Lokendra Gour,False,False,False,False
+122,Reinforcement Learning Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : Law Block E-303,Law Block (E),3,AIML_PANTHERS_ 2023,Dr. Ravi Kiran Kummamuru,False,False,False,False
+123,Cloud Computing Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Rupinder Saini,False,False,False,False
+124,Full Stack Development Lab,Lab,2,Friday,4,1,3,10:00,12:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Mr. Ismail Suleiman; Mr. P Rajashekhar; Prof. Dileep Kumar Mahadevabatla,True,False,False,False
+125,Cryptography & Network Security Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : Law Block E-303,Law Block (E),3,CSE_PANTHERS_2024,Dr. Srikanth Jannu,False,False,False,False
+126,Deep Learning Lab,Lab,2,Monday,0,0,2,09:00,11:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Mr. Bandham Rahul; Mr. S V Badrinath; Mr. Shaik Nageen; Ms. Shaik Sajeera Begum,True,False,False,False
+127,Deep Learning Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+128,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Prof. Avinash,False,False,False,False
+129,Human Computer Interaction & UX Engineering Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. Karthick N,False,False,False,False
+130,Combinatorial & Leadership Mastery Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Prof. Shaheera CR,False,False,False,False
+131,Dev-Sec-ML-Ops Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+132,Cloud Computing Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. M. Upendra Kumar,False,False,False,False
+133,Deep Learning Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+134,Human Computer Interaction & UX Engineering Theory,Theory,1,Tuesday,1,5,6,14:00,15:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. Karthick N,False,False,False,False
+135,Dev-Sec-ML-Ops Lab,Lab,2,Tuesday,1,6,8,15:00,17:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. M Shiva Rama Krishna,True,False,False,False
+136,Deep Learning Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+137,Cloud Computing Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. M. Upendra Kumar,False,False,False,False
+138,Data Analytics and Visualization Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. Rajesh Kumar K V,False,False,False,False
+139,Data Analytics and Visualization Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. Rajesh Kumar K V,False,False,False,False
+140,Dev-Sec-ML-Ops Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+141,Behavioural & Quantitative Transactions Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Prof. Atukara Ashok,False,False,False,False
+142,Cloud Computing Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. M. Upendra Kumar,False,False,False,False
+143,Data Analytics and Visualization Lab,Lab,2,Wednesday,2,1,3,10:00,12:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. Rajesh Kumar K V; Mr. Sai Teja; Mr. Vishnu Vardhan Pingali,True,False,False,False
+144,Human Computer Interaction & UX Engineering Theory,Theory,1,Thursday,3,5,6,14:00,15:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. Karthick N,False,False,False,False
+145,Dev-Sec-ML-Ops Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : Law Block E-304,Law Block (E),3,CSE_TIGERS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+146,Cloud Computing Lab,Lab,2,Friday,4,0,2,09:00,11:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. M. Upendra Kumar; Mr Syed Varish,True,False,False,False
+147,Data Analytics and Visualization Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Dr. Rajesh Kumar K V,False,False,False,False
+148,Behavioural & Quantitative Transactions Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : Law Block E-304,Law Block (E),3,AIML_ TIGERS_2024,Prof. Shaheera CR,False,False,False,False
+149,Data Analytics and Visualization Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Prof. Mulkala Saritha,False,False,False,False
+150,Cloud Computing Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Dr. Rupinder Saini,False,False,False,False
+151,Behavioural & Quantitative Transactions Theory,Theory,1,Monday,0,3,4,12:00,13:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Prof. Atukara Ashok,False,False,False,False
+152,Dev-Sec-ML-Ops Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+153,Human Computer Interaction & UX Engineering Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. Karthick N,False,False,False,False
+154,Data Analytics and Visualization Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Prof. Mulkala Saritha,False,False,False,False
+155,Deep Learning Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+156,Combinatorial & Leadership Mastery Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Prof. Avinash,False,False,False,False
+157,Dev-Sec-ML-Ops Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+158,Human Computer Interaction & UX Engineering Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. Karthick N,False,False,False,False
+159,Data Analytics and Visualization Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Prof. Mulkala Saritha,False,False,False,False
+160,Deep Learning Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+161,Data Analytics and Visualization Lab,Lab,2,Monday,0,7,9,16:00,18:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Mr. S V Badrinath; Mr. Sai Teja; Prof. Mulkala Saritha,True,False,False,False
+162,Human Computer Interaction & UX Engineering Theory,Theory,1,Wednesday,2,5,6,14:00,15:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. Karthick N,False,False,False,False
+163,Cloud Computing Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Dr. Rupinder Saini,False,False,False,False
+164,Cloud Computing Lab,Lab,2,Thursday,3,1,3,10:00,12:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Dr. Rupinder Saini; Mr Syed Varish; Ms. G Kavyanjali,True,False,False,False
+165,Behavioural & Quantitative Transactions Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Prof. Shaheera CR,False,False,False,False
+166,Dev-Sec-ML-Ops Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+167,Combinatorial & Leadership Mastery Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Prof. Shaheera CR,False,False,False,False
+168,Dev-Sec-ML-Ops Lab,Lab,2,Thursday,3,7,9,16:00,18:00,Room no : Law Block E-305,Law Block (E),3,CSE_RHINOS_2023,Dr. M Shiva Rama Krishna,True,False,False,False
+169,Deep Learning Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Ms. Shaik Sajeera Begum,False,False,False,False
+170,Deep Learning Lab,Lab,2,Tuesday,1,7,9,16:00,18:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Mr. Shaik Nageen; Ms. Shaik Sajeera Begum; Ms. Sheeba Rani,True,False,False,False
+171,Cloud Computing Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : Law Block E-305,Law Block (E),3,AIML_RHINOS_2024,Dr. Rupinder Saini,False,False,False,False
+172,Data Analytics and Visualization Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Prof. Mulkala Saritha,False,False,False,False
+173,Behavioural & Quantitative Transactions Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Prof. Atukara Ashok,False,False,False,False
+174,Deep Learning Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. Syed Javeed Pasha,False,False,False,False
+175,Cloud Computing Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+176,Human Computer Interaction & UX Engineering Theory,Theory,1,Monday,0,5,6,14:00,15:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Dr. Karthick N,False,False,False,False
+177,Dev-Sec-ML-Ops Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Dr. M Shiva Rama Krishna,True,False,False,False
+178,Deep Learning Lab,Lab,2,Tuesday,1,0,2,09:00,11:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. Syed Javeed Pasha; Mr. Shaik Nageen; Ms. Himabindu,True,False,False,False
+179,Cloud Computing Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. B Sanjai Prasada Rao; Mr ALI; Ms. G Kavyanjali,True,False,False,False
+180,Human Computer Interaction & UX Engineering Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Dr. Karthick N,False,False,False,False
+181,Combinatorial & Leadership Mastery Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Prof. Shaheera CR,False,False,False,False
+182,Dev-Sec-ML-Ops Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+183,Cloud Computing Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+184,Deep Learning Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. Syed Javeed Pasha,False,False,False,False
+185,Behavioural & Quantitative Transactions Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Prof. Shaheera CR,False,False,False,False
+186,Cloud Computing Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+187,Data Analytics and Visualization Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Prof. Mulkala Saritha,False,False,False,False
+188,Deep Learning Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Dr. Syed Javeed Pasha,False,False,False,False
+189,Human Computer Interaction & UX Engineering Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Dr. Karthick N,False,False,False,False
+190,Dev-Sec-ML-Ops Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Dr. M Shiva Rama Krishna,False,False,False,False
+191,Combinatorial & Leadership Mastery Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : Law Block E-306,Law Block (E),3,CSE_PANTHERS_2023,Prof. Avinash,False,False,False,False
+192,Data Analytics and Visualization Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Prof. Mulkala Saritha,False,False,False,False
+193,Data Analytics and Visualization Lab,Lab,2,Tuesday,1,6,8,15:00,17:00,Room no : Law Block E-306,Law Block (E),3,AIML_PANTHERS_2024,Mr R Gopinadh; Mr. Vishnu Vardhan Pingali; Prof. Mulkala Saritha,True,False,False,False
+194,Behavioural & Quantitative Transactions Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Shaheera CR,False,False,False,False
+195,Cloud Computing Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+196,Data Analytics and Visualization Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Mulkala Saritha,False,False,False,False
+197,Data Analytics and Visualization Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Mulkala Saritha,False,False,False,False
+198,Reinforcement Learning Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Dr. Steven Raj,False,False,False,False
+199,Graph Analytics Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Prof. Akanksha Pamena,False,False,False,False
+200,Deep Learning Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Akanksha Pamena,False,False,False,False
+201,Data Analytics and Visualization Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Mulkala Saritha,False,False,False,False
+202,Graph Analytics Lab,Lab,2,Tuesday,1,5,7,14:00,16:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Prof. Akanksha Pamena,True,False,False,False
+203,Combinatorial & Leadership Mastery Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Prof. Avinash,False,False,False,False
+204,Graph Analytics Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Prof. Akanksha Pamena,False,False,False,False
+205,Deep Learning Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Akanksha Pamena,False,False,False,False
+206,Behavioural & Quantitative Transactions Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Atukara Ashok,False,False,False,False
+207,Cloud Computing Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Dr. B Sanjai Prasada Rao; Mr ALI,True,False,False,False
+208,Graph Analytics Theory,Theory,1,Wednesday,2,5,6,14:00,15:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Prof. Akanksha Pamena,False,False,False,False
+209,Cryptography Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : Law Block E-403,Law Block (E),4,BIC__TIGERS_2025,Dr. M. Upendra Kumar,False,False,False,False
+210,Reinforcement Learning Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Dr. Steven Raj,False,False,False,False
+211,Data Analytics and Visualization Lab,Lab,2,Thursday,3,0,2,09:00,11:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Mr. S V Badrinath; Mr. Sai Teja; Ms. Sowmya; Prof. Mulkala Saritha,True,False,False,False
+212,Deep Learning Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Prof. Akanksha Pamena,False,False,False,False
+213,Cloud Computing Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+214,Cryptography Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : Law Block E-403,Law Block (E),4,BIC__TIGERS_2025,Dr. M. Upendra Kumar,False,False,False,False
+215,Cryptography Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : Law Block E-403,Law Block (E),4,BIC__TIGERS_2025,Dr. M. Upendra Kumar,False,False,False,False
+216,Combinatorial & Leadership Mastery Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Prof. Shaheera CR,False,False,False,False
+217,Reinforcement Learning Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : Law Block E-403,Law Block (E),4,DS_TIGERS_ 2023,Dr. Steven Raj,False,False,False,False
+218,Deep Learning Lab,Lab,2,Friday,4,0,2,09:00,11:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Ms. Himabindu; Ms. Tekur Shivani; Prof. Akanksha Pamena,True,False,False,False
+219,Cloud Computing Theory,Theory,1,Friday,4,3,4,12:00,13:00,Room no : Law Block E-403,Law Block (E),4,AIML_LEOPARDS_2024,Dr. B Sanjai Prasada Rao,False,False,False,False
+220,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : Law Block E-404,Law Block (E),4,DS__TIGERS_2025,Dr. Steven Raj,False,False,False,False
+221,Design Analysis and Algorithms Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+222,Web Technologies Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Steven Raj,False,False,False,False
+223,Database Management Systems Lab,Lab,2,Tuesday,1,7,9,16:00,18:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. YVR Naga Pawan; Mr ALI; Mr. Sai Teja; Ms. Bhoomika Lakshmi Naidu Danda,True,False,False,False
+224,Advanced Communication and Logical thinking Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Prof. Atukara Ashok,False,False,False,False
+225,Database Management Systems Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+226,Design Analysis and Algorithms Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+227,Industry – Integrated Technical Communication Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Haritha R,False,False,False,False
+228,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Laba Kumar,False,False,False,False
+229,Design Analysis and Algorithms Lab,Lab,2,Tuesday,1,0,2,09:00,11:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Monday jubrin Abdullahi; Mr Srikanth; Mr. P Rajashekhar; Mr. Prashlesh Pratap Singh,True,False,False,False
+230,Web Technologies Lab,Lab,2,Wednesday,2,0,2,09:00,11:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Steven Raj; Mr K Sandeep; Mr. Emmanuel; Ms. Palak Dwivedi; Ms. Sai Karishma; Ms. Samhita Sandi; Ms. Sheeba Rani,True,False,False,False
+231,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : Law Block E-404,Law Block (E),4,DS__TIGERS_2025,Dr. Steven Raj,False,False,False,False
+232,Discrete Mathematics for Computer Science Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Laba Kumar,False,False,False,False
+233,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+234,Database Management Systems Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+235,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : Law Block E-404,Law Block (E),4,DS__TIGERS_2025,Dr. Steven Raj,False,False,False,False
+236,Advanced Communication and Logical thinking Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Prof. Abhilash Nair,False,False,False,False
+237,Industry – Integrated Technical Communication Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Haritha R,False,False,False,False
+238,Web Technologies Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Steven Raj,False,False,False,False
+239,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Laba Kumar,False,False,False,False
+240,Database Management Systems Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+241,Web Technologies Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Steven Raj,False,False,False,False
+242,Industry – Integrated Technical Communication Lab,Lab,2,Friday,4,1,3,10:00,12:00,Room no : Law Block E-404,Law Block (E),4,DS & BIC_TIGERS_2025,Dr. Haritha R; Mr Nelson; Mr. Jaddu Venkata Satya Sahithi,True,False,False,False
+243,Electronic Devices and Fundamentals for IoT Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Uday Bhaskar,False,False,False,False
+244,Applied Physics for Next Generation Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Ram Soorat,False,False,False,False
+245,Computational Thinking and Problem Solving Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr Riaz Shaik,False,False,False,False
+246,Engineering Mathematics Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr Harshavardhan Reddy Kalluru,False,False,False,False
+247,Computational Thinking and Problem Solving Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr Riaz Shaik,False,False,False,False
+248,Environmental Science Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Shaik Parvinnisa,False,False,False,False
+249,Applied Physics for Next Generation Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Ram Soorat,False,False,False,False
+250,Design Thinking for Technologists Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr T Santhosh Kumar,False,False,False,False
+251,Computational Thinking and Problem Solving Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr Riaz Shaik,False,False,False,False
+252,Environmental Science Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Shaik Parvinnisa,False,False,False,False
+253,Design Thinking for Technologists Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr T Santhosh Kumar,False,False,False,False
+254,Applied Physics for Next Generation Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Ram Soorat,False,False,False,False
+255,Engineering Mathematics Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr Harshavardhan Reddy Kalluru,False,False,False,False
+256,Electronic Devices and Fundamentals for IoT Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr. Uday Bhaskar,False,False,False,False
+257,Engineering Mathematics Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : F-102 -Lab Block,Lab Block (F),1,CSE_TIGERS_2026,Dr Harshavardhan Reddy Kalluru,False,False,False,False
+258,Applied Physics for Next Generation Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr T Santhosh Kumar,False,True,False,False
+259,Design Thinking for Technologists Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Kamil Reza Khondakar,False,True,False,False
+260,Engineering Mathematics Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Uday Bhaskar,False,True,False,False
+261,Computational Thinking and Problem Solving Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr Riaz Shaik,False,True,False,False
+262,Computational Thinking and Problem Solving Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr Riaz Shaik,False,True,False,False
+263,Applied Physics for Next Generation Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr T Santhosh Kumar,False,True,False,False
+264,Electronic Devices and Fundamentals for IoT Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026,Dr. Nagaraju Dharavat,False,False,False,False
+265,Design Thinking for Technologists Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Kamil Reza Khondakar,False,True,False,False
+266,Environmental Science Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Rakesh Kumar Gupta,False,True,False,False
+267,Engineering Mathematics Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Uday Bhaskar,False,True,False,False
+268,Applied Physics for Next Generation Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr T Santhosh Kumar,False,True,False,False
+269,Electronic Devices and Fundamentals for IoT Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026,Dr. Nagaraju Dharavat,False,False,False,False
+270,Environmental Science Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Rakesh Kumar Gupta,False,True,False,False
+271,Computational Thinking and Problem Solving Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr Riaz Shaik,False,True,False,False
+272,Engineering Mathematics Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : F-103 -Lab Block,Lab Block (F),1,CSE_RHINOS_2026; ECE_TIGERS_2026,Dr. Uday Bhaskar,False,True,False,False
+273,Engineering Mathematics Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr Harshavardhan Reddy Kalluru,False,False,False,False
+274,Indian Knowledge Systems Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Brundaban Mishra,False,False,False,False
+275,Design Thinking for Technologists Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Tadi Ravindar,False,False,False,False
+276,Chemistry for Sustainable Future Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+277,Computational Thinking and Problem Solving Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Kiran Mayee Adavala,False,False,False,False
+278,Engineering Mathematics Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr Harshavardhan Reddy Kalluru,False,False,False,False
+279,Communication Skills for Engineers Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Sarah Mariam Roy,False,False,False,False
+280,Computational Thinking and Problem Solving Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Kiran Mayee Adavala,False,False,False,False
+281,Chemistry for Sustainable Future Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+282,Computational Thinking and Problem Solving Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Kiran Mayee Adavala,False,False,False,False
+283,Engineering Mathematics Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr Harshavardhan Reddy Kalluru,False,False,False,False
+284,Design Thinking for Technologists Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Tadi Ravindar,False,False,False,False
+285,Chemistry for Sustainable Future Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+286,Communication Skills for Engineers Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : F-104 -Lab Block,Lab Block (F),1,AIML_TIGERS_2026,Dr. Sarah Mariam Roy,False,False,False,False
+287,Chemistry for Sustainable Future Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+288,Computational Thinking and Problem Solving Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr Riaz Shaik,False,False,False,False
+289,Communication Skills for Engineers Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Anusree,False,False,False,False
+290,Engineering Mathematics Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Surnam Narendra,False,False,False,False
+291,Design Thinking for Technologists Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Tadi Ravindar,False,False,False,False
+292,Indian Knowledge Systems Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Brundaban Mishra,False,False,False,False
+293,Computational Thinking and Problem Solving Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr Riaz Shaik,False,False,False,False
+294,Engineering Mathematics Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Surnam Narendra,False,False,False,False
+295,Communication Skills for Engineers Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Anusree,False,False,False,False
+296,Design Thinking for Technologists Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Tadi Ravindar,False,False,False,False
+297,Computational Thinking and Problem Solving Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr Riaz Shaik,False,False,False,False
+298,Chemistry for Sustainable Future Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+299,Engineering Mathematics Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Surnam Narendra,False,False,False,False
+300,Chemistry for Sustainable Future Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : F-105 -Lab Block,Lab Block (F),1,AIML_RHINOS_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+301,Network  Analysis Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Uday Bhaskar,False,False,False,False
+302,Probability Theory and Stochastic Processes Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Surnam Narendra,False,False,False,False
+303,Fundamentals of Signals and Systems Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Prof. Geeta Tripathi,False,False,False,False
+304,Fundamentals of Signals and Systems Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Prof. Geeta Tripathi,False,False,False,False
+305,Network  Analysis Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Uday Bhaskar,False,False,False,False
+306,Digital Electronics Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr Soujanya N,False,False,False,False
+307,Probability Theory and Stochastic Processes Tutorial,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Surnam Narendra,False,False,False,False
+308,Network  Analysis Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Uday Bhaskar,False,False,False,False
+309,Probability Theory and Stochastic Processes Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Surnam Narendra,False,False,False,False
+310,Digital Electronics Theory,Theory,1,Thursday,3,3,4,12:00,13:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr Soujanya N,False,False,False,False
+311,Probability Theory and Stochastic Processes Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr. Surnam Narendra,False,False,False,False
+312,Fundamentals of Signals and Systems Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Prof. Geeta Tripathi,False,False,False,False
+313,Digital Electronics Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : F-106 -Lab Block,Lab Block (F),1,ECE_TIGERS_2025,Dr Soujanya N,False,False,False,False
+314,Applied Physics for Next Generation Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr Venkateswara Rao M,False,False,False,False
+315,Engineering Mathematics Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Laba Kumar,False,False,False,False
+316,Environmental Science Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Amit Kumar Singh,False,False,False,False
+317,Electronic Devices and Fundamentals for IoT Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Nagaraju Dharavat,False,False,False,False
+318,Design Thinking for Technologists Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr T Santhosh Kumar,False,False,False,False
+319,Computational Thinking and Problem Solving Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Shanthi D,False,False,False,False
+320,Engineering Mathematics Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Laba Kumar,False,False,False,False
+321,Environmental Science Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Amit Kumar Singh,False,False,False,False
+322,Design Thinking for Technologists Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr T Santhosh Kumar,False,False,False,False
+323,Computational Thinking and Problem Solving Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Shanthi D,False,False,False,False
+324,Applied Physics for Next Generation Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr Venkateswara Rao M,False,False,False,False
+325,Engineering Mathematics Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Laba Kumar,False,False,False,False
+326,Applied Physics for Next Generation Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr Venkateswara Rao M,False,False,False,False
+327,Computational Thinking and Problem Solving Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Shanthi D,False,False,False,False
+328,Electronic Devices and Fundamentals for IoT Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : F-113 -Lab Block,Lab Block (F),1,DS & BIC_TIGERS_2026,Dr. Nagaraju Dharavat,False,False,False,False
+329,Engineering Mathematics Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Laba Kumar,False,False,False,False
+330,Design Thinking for Technologists Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Ram Soorat,False,False,False,False
+331,Design Thinking for Technologists Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Ram Soorat,False,False,False,False
+332,Engineering Mathematics Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Laba Kumar,False,False,False,False
+333,Chemistry for Sustainable Future Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr.Gurunath Sahu,False,False,False,False
+334,Computational Thinking and Problem Solving Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Shanthi D,False,False,False,False
+335,Communication Skills for Engineers Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Dharmendra Kumar Mishra,False,False,False,False
+336,Chemistry for Sustainable Future Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr.Gurunath Sahu,False,False,False,False
+337,Chemistry for Sustainable Future Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr.Gurunath Sahu,False,False,False,False
+338,Engineering Mathematics Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Laba Kumar,False,False,False,False
+339,Computational Thinking and Problem Solving Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Shanthi D,False,False,False,False
+340,Indian Knowledge Systems Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Brundaban Mishra,False,False,False,False
+341,Communication Skills for Engineers Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Dharmendra Kumar Mishra,False,False,False,False
+342,Computational Thinking and Problem Solving Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : F-112 -Lab Block,Lab Block (F),1,AIML_PANTHERS_2026,Dr. Shanthi D,False,False,False,False
+343,Chemistry for Sustainable Future Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr.Gurunath Sahu,False,False,False,False
+344,Computational Thinking and Problem Solving Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Shanthi D,False,False,False,False
+345,Computational Thinking and Problem Solving Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Shanthi D,False,False,False,False
+346,Design Thinking for Technologists Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Ram Soorat,False,False,False,False
+347,Engineering Mathematics Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Somnath Karmakar,False,False,False,False
+348,Chemistry for Sustainable Future Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr.Gurunath Sahu,False,False,False,False
+349,Indian Knowledge Systems Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Brundaban Mishra,False,False,False,False
+350,Engineering Mathematics Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Somnath Karmakar,False,False,False,False
+351,Design Thinking for Technologists Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Ram Soorat,False,False,False,False
+352,Computational Thinking and Problem Solving Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Shanthi D,False,False,False,False
+353,Communication Skills for Engineers Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Anusree,False,False,False,False
+354,Chemistry for Sustainable Future Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr.Gurunath Sahu,False,False,False,False
+355,Engineering Mathematics Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Somnath Karmakar,False,False,False,False
+356,Communication Skills for Engineers Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 301 - Lab Block,Lab Block,3,AIML_LEOPARDS_2026,Dr. Anusree,False,False,False,False
+357,Engineering Mathematics Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Uday Bhaskar,False,False,False,False
+358,Communication Skills for Engineers Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Sharon,False,False,False,False
+359,Chemistry for Sustainable Future Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+360,Design Thinking for Technologists Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Kamil Reza Khondakar,False,False,False,False
+361,Engineering Mathematics Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Uday Bhaskar,False,False,False,False
+362,Chemistry for Sustainable Future Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+363,Indian Knowledge Systems Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Brundaban Mishra,False,False,False,False
+364,Communication Skills for Engineers Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Sharon,False,False,False,False
+365,Chemistry for Sustainable Future Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Venkata Narayana Pappula,False,False,False,False
+366,Engineering Mathematics Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Uday Bhaskar,False,False,False,False
+367,Design Thinking for Technologists Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : 302 - Lab Block,Lab Block,3,AIML_WHALES_2026,Dr. Kamil Reza Khondakar,False,False,False,False
+368,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Dr. Bhargav Prajwal Pathri,False,True,False,False
+369,Web Technologies Lab,Lab,2,Monday,0,1,3,10:00,12:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Mr. K. Bhuvana Chandra Rao; Mr. Kande Sunhith; Ms G Ananya Reddy; Ms Kurma Sahiti; Ms. M. Ruthwika; Ms. Sneha Reddy; Prof. Veeresh Biradar,True,False,False,False
+370,Industry – Integrated Technical Communication Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Dr. Sarah Mariam Roy; Ms Asma B; Ms. Bhavi Mahnot,True,True,False,False
+371,Database Management Systems Lab,Lab,2,Tuesday,1,1,3,10:00,12:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Amogh Deshmukh; Mr. Sai Teja; Ms. Dakshina B,True,False,False,False
+372,Design Analysis and Algorithms Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+373,Web Technologies Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Prof. Veeresh Biradar,False,False,False,False
+374,Database Management Systems Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Amogh Deshmukh,False,False,False,False
+375,Discrete Mathematics for Computer Science Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Somnath Karmakar,False,False,False,False
+376,Design Analysis and Algorithms Lab,Lab,2,Wednesday,2,0,2,09:00,11:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Monday jubrin Abdullahi; Mr. P Rajashekhar; Mr. Rushikesh Mule; Ms. Himabindu,True,False,False,False
+377,Advanced Communication and Logical thinking Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Prof. Atukara Ashok,False,True,False,False
+378,Database Management Systems Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Amogh Deshmukh,False,False,False,False
+379,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+380,Web Technologies Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Prof. Veeresh Biradar,False,False,False,False
+381,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Somnath Karmakar,False,False,False,False
+382,Advanced Communication and Logical thinking Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Prof. Abhilash Nair,False,True,False,False
+383,Database Management Systems Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Amogh Deshmukh,False,False,False,False
+384,Industry – Integrated Technical Communication Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Dr. Sarah Mariam Roy,False,True,False,False
+385,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Dr. Bhargav Prajwal Pathri,False,True,False,False
+386,Web Technologies Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Prof. Veeresh Biradar,False,False,False,False
+387,Design Analysis and Algorithms Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+388,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Dr. Bhargav Prajwal Pathri,False,True,False,False
+389,Discrete Mathematics for Computer Science Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025,Dr. Somnath Karmakar,False,False,False,False
+390,Industry – Integrated Technical Communication Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : 303 - Lab Block,Lab Block,3,CSE_RHINOS_2025; ECE_TIGERS_2025,Dr. Sarah Mariam Roy,False,True,False,False
+391,Database Management Systems Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Prof. Sahithi,False,True,False,False
+392,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Dr. Bhargav Prajwal Pathri,False,False,False,False
+393,Internet of Things Theory,Theory,1,Monday,0,3,4,12:00,13:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025,Dr. S Bhanu Prakash,False,False,False,False
+394,Design Analysis and Algorithms Lab,Lab,2,Tuesday,1,6,8,15:00,17:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Monday jubrin Abdullahi; Mr. P Rajashekhar; Ms. Himabindu; Ms. Zahra Sewak,True,True,False,False
+395,Design Analysis and Algorithms Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Monday jubrin Abdullahi,False,True,False,False
+396,Design Analysis and Algorithms Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Monday jubrin Abdullahi,False,True,False,False
+397,Industry – Integrated Technical Communication Lab,Lab,2,Tuesday,1,1,3,10:00,12:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Dharmendra Kumar Mishra; Mr. Lakshya  Bamboli; Ms Asma B,True,True,False,False
+398,Internet of Things Theory,Theory,1,Tuesday,1,5,6,14:00,15:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025,Dr. S Bhanu Prakash,False,False,False,False
+399,Web Technologies Lab,Lab,2,Friday,4,1,3,10:00,12:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Mr K Sandeep; Mr. Guntaka  Rajavardhan Reddy; Ms G.Akshitha; Ms. Dhanya Sri; Ms. Sheeba Rani; Prof. Veeresh Biradar,True,False,False,False
+400,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Somnath Karmakar,False,True,False,False
+401,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Dr. Bhargav Prajwal Pathri,False,False,False,False
+402,Web Technologies Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Prof. Veeresh Biradar,False,False,False,False
+403,Internet of Things Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025,Dr. S Bhanu Prakash,False,False,False,False
+404,Industry – Integrated Technical Communication Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Dharmendra Kumar Mishra,False,True,False,False
+405,Advanced Communication and Logical thinking Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Prof. Atukara Ashok,False,True,False,False
+406,Database Management Systems Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Prof. Sahithi,False,True,False,False
+407,Design Analysis and Algorithms Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Monday jubrin Abdullahi,False,True,False,False
+408,Industry – Integrated Technical Communication Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Dharmendra Kumar Mishra,False,True,False,False
+409,Advanced Communication and Logical thinking Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Prof. Abhilash Nair,False,True,False,False
+410,Web Technologies Theory,Theory,1,Thursday,3,3,4,12:00,13:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Prof. Veeresh Biradar,False,False,False,False
+411,Database Management Systems Lab,Lab,2,Wednesday,2,7,9,16:00,18:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Mr ALI; Mr R Gopinadh; Ms. Safa Nazneen; Prof. Sahithi,True,True,False,False
+412,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Somnath Karmakar,False,True,False,False
+413,Database Management Systems Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Prof. Sahithi,False,True,False,False
+414,Web Technologies Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Prof. Veeresh Biradar,False,False,False,False
+415,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : 304 - Lab Block,Lab Block,3,CSE_PANTHERS_2025,Dr. Bhargav Prajwal Pathri,False,False,False,False
+416,Discrete Mathematics for Computer Science Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : 304 - Lab Block,Lab Block,3,BCA_TIGERS_2025; CSE_PANTHERS_2025,Dr. Somnath Karmakar,False,True,False,False
+417,Design Analysis and Algorithms Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Syed Javeed Pasha,False,False,False,False
+418,Discrete Mathematics for Computer Science Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Gururaj Nase,False,False,False,False
+419,Computer Organization and Architecture Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+420,Advanced Communication and Logical thinking Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Abhilash Nair,False,False,False,False
+421,Database Management Systems Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Sahithi,False,False,False,False
+422,Language and Critical Thinking Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Sharon,False,False,False,False
+423,Database Management Systems Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Sahithi,False,False,False,False
+424,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Muralidhar Goud K,False,False,False,False
+425,Discrete Mathematics for Computer Science Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Gururaj Nase,False,False,False,False
+426,Computer Organization and Architecture Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+427,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Muralidhar Goud K,False,False,False,False
+428,Database Management Systems Lab,Lab,2,Wednesday,2,1,3,10:00,12:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Mr R Gopinadh; Ms Kurma Sahiti; Prof. Sahithi,True,False,False,False
+429,Language and Critical Thinking Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Sharon,False,False,False,False
+430,Database Management Systems Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Sahithi,False,False,False,False
+431,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Syed Javeed Pasha,False,False,False,False
+432,Design Analysis and Algorithms Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Syed Javeed Pasha,False,False,False,False
+433,Computer Organization and Architecture Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+434,Advanced Communication and Logical thinking Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Atukara Ashok,False,False,False,False
+435,Design Analysis and Algorithms Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Syed Javeed Pasha; Mr Syed Varish; Mr. S V Badrinath; Ms Kiwi Sarkar,True,False,False,False
+436,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Prof. Gururaj Nase,False,False,False,False
+437,Computer Organization and Architecture Lab,Lab,2,Friday,4,0,2,09:00,11:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Malli Rajeswara Rao; Mr R Gopinadh; Ms. Sneha Reddy,True,False,False,False
+438,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : 307 - Lab Block,Lab Block,3,AIML_RHINOS_2025,Dr. Muralidhar Goud K,False,False,False,False
+439,Language and Critical Thinking Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Haritha R,False,False,False,False
+440,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+441,Database Management Systems Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+442,Advanced Communication and Logical thinking Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Abhilash Nair,False,False,False,False
+443,Computer Organization and Architecture Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+444,Discrete Mathematics for Computer Science Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Gururaj Nase,False,False,False,False
+445,Computer Organization and Architecture Lab,Lab,2,Thursday,3,1,3,10:00,12:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Malli Rajeswara Rao; Mr K Sandeep; Mr. Idapalapati Gokul Nand; Mr. Nitin Sai Patha,True,False,False,False
+446,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+447,Design Analysis and Algorithms Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Geeta Tripathi,False,False,False,False
+448,Discrete Mathematics for Computer Science Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Gururaj Nase,False,False,False,False
+449,Design Analysis and Algorithms Lab,Lab,2,Wednesday,2,0,2,09:00,11:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Mr. Idapalapati Gokul Nand; Ms. Laasya; Ms. Tekur Shivani; Prof. Geeta Tripathi,True,False,False,False
+450,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Geeta Tripathi,False,False,False,False
+451,Language and Critical Thinking Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Haritha R,False,False,False,False
+452,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+453,Advanced Communication and Logical thinking Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Atukara Ashok,False,False,False,False
+454,Computer Organization and Architecture Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+455,Design Analysis and Algorithms Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Geeta Tripathi,False,False,False,False
+456,Database Management Systems Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+457,Database Management Systems Lab,Lab,2,Thursday,3,6,8,15:00,17:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Kiran Mayee Adavala; Mr. Venkata Rishit Gurram; Ms Kurma Sahiti; Ms. Sneha Reddy,True,False,False,False
+458,Discrete Mathematics for Computer Science Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Prof. Gururaj Nase,False,False,False,False
+459,Database Management Systems Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+460,Computer Organization and Architecture Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : 308 - Lab Block,Lab Block,3,AIML_PANTHERS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+461,Deep Learning Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Prof. Akanksha Pamena,False,False,False,False
+462,Data Mining  and Analytics Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Rupinder Saini,False,False,False,False
+463,Behavioural & Quantitative Transactions Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Prof. Atukara Ashok,False,False,False,False
+464,Big Data Analytics Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Srikanth Jannu,False,False,False,False
+465,Data Mining  and Analytics Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Rupinder Saini,False,False,False,False
+466,Deep Learning Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Prof. Akanksha Pamena,False,False,False,False
+467,Big Data Analytics Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Srikanth Jannu,False,False,False,False
+468,Data Mining  and Analytics Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Rupinder Saini,False,False,False,False
+469,Deep Learning Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Mr Syed Varish; Ms. Himabindu; Prof. Akanksha Pamena,True,False,False,False
+470,Big Data Analytics Lab,Lab,2,Thursday,3,0,2,09:00,11:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Srikanth Jannu; Ms. Sneha Reddy,True,False,False,False
+471,Behavioural & Quantitative Transactions Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Prof. Shaheera CR,False,False,False,False
+472,Big Data Analytics Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Srikanth Jannu,False,False,False,False
+473,Data Mining  and Analytics Lab,Lab,2,Friday,4,1,3,10:00,12:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Dr. Rupinder Saini; Mr. Sai Teja,True,False,False,False
+474,Deep Learning Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : C-006,Block C,0,DS_ TIGERS_2024,Prof. Akanksha Pamena,False,False,False,False
+475,Computer Organization and Architecture Lab,Lab,2,Monday,0,1,3,10:00,12:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Malli Rajeswara Rao; Mr R Gopinadh; Mr Srikanth,True,False,False,False
+476,Design Analysis and Algorithms Lab,Lab,2,Tuesday,1,7,9,16:00,18:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Syed Javeed Pasha; Mr Syed Varish; Ms. Tekur Shivani,True,False,False,False
+477,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+478,Advanced Communication and Logical thinking Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Prof. Atukara Ashok,False,False,False,False
+479,Language and Critical Thinking Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Sharon,False,False,False,False
+480,Computer Organization and Architecture Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+481,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Somnath Karmakar,False,False,False,False
+482,Design Analysis and Algorithms Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Syed Javeed Pasha,False,False,False,False
+483,Database Management Systems Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+484,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Somnath Karmakar,False,False,False,False
+485,Computer Organization and Architecture Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+486,Database Management Systems Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+487,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+488,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+489,Design Analysis and Algorithms Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Syed Javeed Pasha,False,False,False,False
+490,Database Management Systems Lab,Lab,2,Monday,0,7,9,16:00,18:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. YVR Naga Pawan; Mr. Shaik Nageen; Ms. Sneha Reddy,True,False,False,False
+491,Advanced Communication and Logical thinking Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Prof. Abhilash Nair,False,False,False,False
+492,Database Management Systems Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. YVR Naga Pawan,False,False,False,False
+493,Computer Organization and Architecture Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Malli Rajeswara Rao,False,False,False,False
+494,Design Analysis and Algorithms Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Syed Javeed Pasha,False,False,False,False
+495,Discrete Mathematics for Computer Science Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Somnath Karmakar,False,False,False,False
+496,Language and Critical Thinking Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Sharon,False,False,False,False
+497,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Monday,0,0,1,09:00,10:00,Room no : C- 007,Block C,0,AIML_TIGERS_2025,Dr. Muralidhar Goud K,False,False,False,False
+498,Digital Electronics Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Tadi Ravindar,False,False,False,False
+499,Design Thinking for Technologists Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Ram Soorat,False,False,False,False
+500,Communication Skills Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Haritha R,False,False,False,False
+501,Environmental Science Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Shaik Parvinnisa,False,False,False,False
+502,Mathematic for Computing Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Laba Kumar,False,False,False,False
+503,Digital Electronics Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Tadi Ravindar,False,False,False,False
+504,Communication Skills Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Haritha R,False,False,False,False
+505,Computational Problem Solving Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Syed Javeed Pasha,False,False,False,False
+506,Computational Problem Solving Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Syed Javeed Pasha,False,False,False,False
+507,Computational Problem Solving Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Syed Javeed Pasha,False,False,False,False
+508,Digital Electronics Theory,Theory,1,Thursday,3,1,2,10:00,11:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Tadi Ravindar,False,False,False,False
+509,Design Thinking for Technologists Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Ram Soorat,False,False,False,False
+510,Mathematic for Computing Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Laba Kumar,False,False,False,False
+511,Environmental Science Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Shaik Parvinnisa,False,False,False,False
+512,Mathematic for Computing Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : C-015,Block C,0,BCA_TIGERS_2026,Dr. Laba Kumar,False,False,False,False
+513,Design Analysis and Algorithms Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+514,Language and Critical Thinking Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Haritha R,False,False,False,False
+515,Discrete Mathematics for Computer Science Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Prof. Gururaj Nase,False,False,False,False
+516,Database Management Systems Theory,Theory,1,Monday,0,7,8,16:00,17:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+517,Discrete Mathematics for Computer Science Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Prof. Gururaj Nase,False,False,False,False
+518,Advanced Communication and Logical thinking Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Prof. Abhilash Nair,False,False,False,False
+519,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,0,1,09:00,10:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. YVR Naga Pawan,False,False,False,False
+520,Database Management Systems Lab,Lab,2,Tuesday,1,6,8,15:00,17:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Kiran Mayee Adavala; Mr. Rudransh Singh; Ms Kurma Sahiti; Ms. Sneha Reddy,True,False,False,False
+521,Computer Organization and Architecture Theory,Theory,1,Thursday,3,5,6,14:00,15:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr Soujanya N,False,False,False,False
+522,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. YVR Naga Pawan,False,False,False,False
+523,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+524,Database Management Systems Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+525,Computer Organization and Architecture Lab,Lab,2,Wednesday,2,6,8,15:00,17:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr Soujanya N; Mr K Sandeep; Mr Srikanth; Ms. Kundarapu Sirichandana,True,False,False,False
+526,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Prof. Gururaj Nase,False,False,False,False
+527,Design Analysis and Algorithms Lab,Lab,2,Thursday,3,1,3,10:00,12:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Monday jubrin Abdullahi; Mr. Navatej Yedavelli; Mr. P Rajashekhar,True,False,False,False
+528,Design Analysis and Algorithms Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Monday jubrin Abdullahi,False,False,False,False
+529,Computer Organization and Architecture Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr Soujanya N,False,False,False,False
+530,Advanced Communication and Logical thinking Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Prof. Atukara Ashok,False,False,False,False
+531,Database Management Systems Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+532,Computer Organization and Architecture Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr Soujanya N,False,False,False,False
+533,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. YVR Naga Pawan,False,False,False,False
+534,Language and Critical Thinking Theory,Theory,1,Monday,0,6,7,15:00,16:00,Room no : 402 - Lab Block,Lab Block,4,AIML_WHALES_2025,Dr. Haritha R,False,False,False,False
+535,Design Analysis and Algorithms Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+536,Computer Organization and Architecture Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr Soujanya N; Mr K Sandeep; Mr Srikanth,True,False,False,False
+537,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Steven Raj,False,False,False,False
+538,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Steven Raj,False,False,False,False
+539,Discrete Mathematics for Computer Science Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Prof. Gururaj Nase,False,False,False,False
+540,Database Management Systems Theory,Theory,1,Tuesday,1,3,4,12:00,13:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Amogh Deshmukh,False,False,False,False
+541,Computer Organization and Architecture Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr Soujanya N,False,False,False,False
+542,Language and Critical Thinking Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Sharon,False,False,False,False
+543,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Prof. Gururaj Nase,False,False,False,False
+544,Database Management Systems Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Amogh Deshmukh,False,False,False,False
+545,Language and Critical Thinking Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Sharon,False,False,False,False
+546,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Steven Raj,False,False,False,False
+547,Database Management Systems Lab,Lab,2,Wednesday,2,6,8,15:00,17:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Amogh Deshmukh; Mr. Shaik Nageen; Ms Kurma Sahiti,True,False,False,False
+548,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+549,Design Analysis and Algorithms Lab,Lab,2,Thursday,3,0,2,09:00,11:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Kiran Mayee Adavala; Mr ALI; Mr. Ismail Suleiman; Ms. Sanjana Jain,True,False,False,False
+550,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Prof. Gururaj Nase,False,False,False,False
+551,Database Management Systems Theory,Theory,1,Thursday,3,3,4,12:00,13:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Amogh Deshmukh,False,False,False,False
+552,Design Analysis and Algorithms Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr. Kiran Mayee Adavala,False,False,False,False
+553,Computer Organization and Architecture Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr Soujanya N,False,False,False,False
+554,Advanced Communication and Logical thinking Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Prof. Atukara Ashok,False,False,False,False
+555,Advanced Communication and Logical thinking Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Prof. Abhilash Nair,False,False,False,False
+556,Computer Organization and Architecture Theory,Theory,1,Friday,4,3,4,12:00,13:00,Room no : 403 - Lab Block,Lab Block,4,AIML_WOLVES_2025,Dr Soujanya N,False,False,False,False
+557,Database Management Systems Theory,Theory,1,Monday,0,2,3,11:00,12:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Sahithi,False,False,False,False
+558,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Muralidhar Goud K,False,False,False,False
+559,Database Management Systems Lab,Lab,2,Monday,0,6,8,15:00,17:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Mr R Gopinadh; Ms. Sheeba Rani; Prof. Sahithi,True,False,False,False
+560,Design Analysis and Algorithms Theory,Theory,1,Monday,0,8,9,17:00,18:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Geeta Tripathi,False,False,False,False
+561,Language and Critical Thinking Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Anusree,False,False,False,False
+562,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Gururaj Nase,False,False,False,False
+563,Computer Organization and Architecture Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Srikanth Jannu,False,False,False,False
+564,Design Analysis and Algorithms Lab,Lab,2,Tuesday,1,0,2,09:00,11:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Mr ALI; Mr. Abhishek Kumar Tiwari; Mr. Vishnu Vardhan Pingali; Prof. Geeta Tripathi,True,False,False,False
+565,Database Management Systems Theory,Theory,1,Wednesday,2,0,1,09:00,10:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Sahithi,False,False,False,False
+566,Discrete Mathematics for Computer Science Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Gururaj Nase,False,False,False,False
+567,Computer Organization and Architecture Theory,Theory,1,Thursday,3,2,3,11:00,12:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Srikanth Jannu,False,False,False,False
+568,Advanced Communication and Logical thinking Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Atukara Ashok,False,False,False,False
+569,Design Analysis and Algorithms Theory,Theory,1,Wednesday,2,8,9,17:00,18:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Geeta Tripathi,False,False,False,False
+570,Computer Organization and Architecture Lab,Lab,2,Tuesday,1,6,8,15:00,17:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Srikanth Jannu; Mr K Sandeep; Mr. Idapalapati Gokul Nand; Mr. Mallem  Sai Venu Gopal,True,False,False,False
+571,Language and Critical Thinking Theory,Theory,1,Monday,0,1,2,10:00,11:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Anusree,False,False,False,False
+572,Discrete Mathematics for Computer Science Theory,Theory,1,Thursday,3,6,7,15:00,16:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Gururaj Nase,False,False,False,False
+573,Database Management Systems Theory,Theory,1,Thursday,3,7,8,16:00,17:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Sahithi,False,False,False,False
+574,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Thursday,3,8,9,17:00,18:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Muralidhar Goud K,False,False,False,False
+575,Foundations of Artificial Intelligence and Optimization Theory,Theory,1,Friday,4,0,1,09:00,10:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Muralidhar Goud K,False,False,False,False
+576,Advanced Communication and Logical thinking Theory,Theory,1,Friday,4,1,2,10:00,11:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Abhilash Nair,False,False,False,False
+577,Computer Organization and Architecture Theory,Theory,1,Friday,4,2,3,11:00,12:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Dr. Srikanth Jannu,False,False,False,False
+578,Design Analysis and Algorithms Theory,Theory,1,Thursday,3,0,1,09:00,10:00,Room no : 404 - Lab Block,Lab Block,4,AIML_LEOPARDS_2025,Prof. Geeta Tripathi,False,False,False,False
+579,Internet of Things Lab,Lab,2,Wednesday,2,1,3,10:00,12:00,Advanced Electrical & Electronics Lab Room No-C105,Block C,1,BCA_TIGERS_2025,Dr. S Bhanu Prakash; Mr Srikanth; Mr. Mani Sankar Reddy Narasani; Ms. P Swathi,True,False,False,False
+580,Digital Electronics Lab,Lab,2,Thursday,3,1,3,10:00,12:00,Advanced Electrical & Electronics Lab Room No-C105,Block C,1,ECE_TIGERS_2025,Dr Soujanya N; Mr. Paga Ravi Varma,True,False,False,False
+581,Principles of Machine Intelligence Lab,Theory,1,Monday,0,1,2,10:00,11:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Ravi Kiran Kummamuru,False,False,False,False
+582,Communication and Critical Thinking Theory,Theory,1,Monday,0,2,3,11:00,12:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Prof. Avinash,False,False,False,False
+583,Probabilistic Learning Theory,Theory,1,Tuesday,1,8,9,17:00,18:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Srikanth Jannu,False,False,False,False
+584,Principles of Machine Intelligence Theory,Theory,1,Tuesday,1,1,2,10:00,11:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Ravi Kiran Kummamuru,False,False,False,False
+585,Probabilistic Learning Theory,Theory,1,Tuesday,1,2,3,11:00,12:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Srikanth Jannu,False,False,False,False
+586,Communication and Critical Thinking Theory,Theory,1,Thursday,3,7,8,16:00,17:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Prof. Avinash,False,False,False,False
+587,Mathematical foundations for ML Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. B Sanjai Prasada Rao,False,False,False,False
+588,Mathematical foundations for ML Theory,Theory,1,Tuesday,1,7,8,16:00,17:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. B Sanjai Prasada Rao,False,False,False,False
+589,Principles of Machine Intelligence Theory,Theory,1,Wednesday,2,1,2,10:00,11:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Ravi Kiran Kummamuru,False,False,False,False
+590,Probabilistic Learning Theory,Theory,1,Wednesday,2,2,3,11:00,12:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Srikanth Jannu,False,False,False,False
+591,Mathematical foundations for ML Theory,Theory,1,Wednesday,2,6,7,15:00,16:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. B Sanjai Prasada Rao,False,False,False,False
+592,Mathematical foundations for ML Theory,Theory,1,Wednesday,2,7,8,16:00,17:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. B Sanjai Prasada Rao,False,False,False,False
+593,Probabilistic Learning Theory,Theory,1,Friday,4,1,2,10:00,11:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Srikanth Jannu,False,False,False,False
+594,Principles of Machine Intelligence Theory,Theory,1,Friday,4,2,3,11:00,12:00,X-Gen Innovation Lab (LAB Block),UNKNOWN,-1,M.Tech (2026-2028),Dr. Ravi Kiran Kummamuru,False,False,False,False
+595,Basic Electrical and Electronics Engineering Theory,Theory,1,Tuesday,1,6,7,15:00,16:00,NO_ROOM,UNKNOWN,-1,ECE_TIGERS_2026,Dr. S Bhanu Prakash,False,False,True,True
+596,Basic Electrical and Electronics Engineering Theory,Theory,1,Friday,4,1,2,10:00,11:00,NO_ROOM,UNKNOWN,-1,ECE_TIGERS_2026,Dr. S Bhanu Prakash,False,False,True,True
+597,"2023-2027, 2024-2028Entrepreneurship Track, Research Track & Industry Track Theory",Lab,2,Wednesday,2,6,8,15:00,17:00,NO_ROOM,UNKNOWN,-1,AIML_ TIGERS_2024; AIML_LEOPARDS_2024; AIML_PANTHERS_ 2023; AIML_PANTHERS_2024; AIML_RHINOCERS_2023; AIML_RHINOS_2024; AIML_TIGERS_2023; AIML_WHALES_2024; BIC_ TIGERS_2024; BIC_TIGERS_ 2023; CSE_PANTHERS_2023; CSE_PANTHERS_2024; CSE_RHINOS_2023; CSE_RHINOS_2024; CSE_TIGERS_2023; CSE_TIGERS_2024; DS_ TIGERS_2024; DS_TIGERS_ 2023,Dr T Santhosh Kumar; Dr. Karthick N; Dr. Ravi Kiran Kummamuru; Prof. Geeta Tripathi,True,True,True,True

@@ -1,0 +1,42 @@
+{
+  "status": "STAGE_6_PASS",
+  "decision": "STAGE_6_PASS \u2014 PRODUCTION TIMETABLE REBUILT FROM STAGE 5.3 AND CERTIFIED",
+  "timestamp": "2026-09-13T12:21:22.981830Z",
+  "production_manifest": {
+    "manifest_version": "2.0.0",
+    "production_sha256": "fc77f694acd4eaad55cdbc18432b231e10bc46124cd4ac930bdc26369eb45c3b",
+    "source_filename": "stage5_3_corrected_optimized_schedule.json",
+    "source_sha256": "8c82c3a36bce6655b78344c599ba7911b4e318ba96fc541d679c06a8bdc0708a"
+  },
+  "substages_evaluated": {
+    "6.1_production_snapshot": "PASS",
+    "6.2_independent_production_validation": "PASS",
+    "6.3_timetable_views": "PASS",
+    "6.4_search_filter_inspection": "PASS",
+    "6.5_visual_quality_friday_closed": "PASS",
+    "6.6_metrics_dashboard": "PASS",
+    "6.7_csv_and_print_exports": "PASS",
+    "6.8_final_regression_parity": "PASS"
+  },
+  "verification_invariants": {
+    "master_events": 598,
+    "student_section_occupancy_hours": 748,
+    "faculty_allocation_occupancy_hours": 981,
+    "labs": 75,
+    "shared_events": 38,
+    "frozen_rooms": 595,
+    "pinned_no_room_events": 3,
+    "student_collisions": 0,
+    "faculty_collisions": 0,
+    "room_collisions": 0,
+    "leave_clashes": 0,
+    "friday_post_lunch_event_hours": 0,
+    "certification_discrepancies": 0,
+    "schedule_mutations_vs_stage5_3": 0
+  },
+  "csv_export": {
+    "filename": "production_schedule.csv",
+    "row_count": 598,
+    "parity_check": "PASS"
+  }
+}

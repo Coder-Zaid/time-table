@@ -1,0 +1,32 @@
+{
+  "status": "STAGE_6_PASS",
+  "timestamp": "2026-09-13T17:34:00Z",
+  "substages_evaluated": {
+    "6.1_certified_schedule_snapshot": "PASS",
+    "6.2_production_data_integrity_validator": "PASS",
+    "6.3_timetable_views": "PASS",
+    "6.4_search_filter_detail_inspection": "PASS",
+    "6.5_visual_timetable_quality": "PASS",
+    "6.6_certified_metrics_dashboard": "PASS",
+    "6.7_export_system": "PASS",
+    "6.8_final_regression_certification": "PASS"
+  },
+  "manifest_sha256": "8a42813a0ded466a67933423fed8fe313f5db5199eab730af7d319bfb5af9aa7",
+  "final_assertions": {
+    "master_events": 598,
+    "student_section_occupancy_hours": 748,
+    "faculty_allocation_occupancy_hours": 981,
+    "labs": 75,
+    "shared_events": 38,
+    "frozen_rooms": 595,
+    "pinned_no_room_events": 3,
+    "student_collisions": 0,
+    "faculty_collisions": 0,
+    "room_collisions": 0,
+    "leave_clashes": 0,
+    "certification_discrepancies": 0,
+    "schedule_mutations": 0
+  },
+  "ui_recording": "timetable_ui_audit_1789300868550.webp",
+  "decision": "STAGE_6_PASS \u2014 PRODUCTION TIMETABLE CERTIFIED"
+}

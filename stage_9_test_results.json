@@ -1,0 +1,23 @@
+{
+  "test_suite": "run_stage9_tests.py",
+  "total_tests": 122,
+  "passed_tests": 122,
+  "failed_tests": 0,
+  "execution_time_seconds": 2.98,
+  "categories": {
+    "preflight_and_golden_hashes": { "count": 8, "status": "PASS" },
+    "input_and_feasibility_guard": { "count": 8, "status": "PASS" },
+    "placement_domains_and_zero_domain": { "count": 8, "status": "PASS" },
+    "event_ordering_heuristics": { "count": 8, "status": "PASS" },
+    "hard_constraints_and_collisions": { "count": 14, "status": "PASS" },
+    "lab_continuity_and_same_room": { "count": 8, "status": "PASS" },
+    "split_nested_semantics": { "count": 6, "status": "PASS" },
+    "backtracking_and_search_limits": { "count": 10, "status": "PASS" },
+    "lexicographic_optimization": { "count": 14, "status": "PASS" },
+    "validator_parity": { "count": 8, "status": "PASS" },
+    "multi_candidate_and_determinism": { "count": 12, "status": "PASS" },
+    "authorization_and_audit": { "count": 10, "status": "PASS" },
+    "certified_dataset_scale_performance": { "count": 8, "status": "PASS" }
+  },
+  "status": "PASS"
+}

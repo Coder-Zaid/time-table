@@ -1,0 +1,36 @@
+{
+  "stage": "8.6",
+  "name": "Timetable Feasibility Analysis Test Suite",
+  "test_script": "run_stage8_6_tests.py",
+  "total_tests": 78,
+  "passed_tests": 78,
+  "failed_tests": 0,
+  "test_groups": {
+    "Preflight and Baseline Regression": { "tests": 5, "passed": 5 },
+    "Dataset Integrity": { "tests": 5, "passed": 5 },
+    "Resource Feasibility": { "tests": 5, "passed": 5 },
+    "Time Window and Contiguity": { "tests": 4, "passed": 4 },
+    "Synchronization Feasibility": { "tests": 3, "passed": 3 },
+    "Policies and Contradictions": { "tests": 3, "passed": 3 },
+    "Aggregate Workload and Lower Bounds": { "tests": 4, "passed": 4 },
+    "Infeasibility Certificates": { "tests": 2, "passed": 2 },
+    "Status Classification": { "tests": 3, "passed": 3 },
+    "Schedule Compliance Separation": { "tests": 2, "passed": 2 },
+    "Immutability and Versioning": { "tests": 4, "passed": 4 },
+    "RBAC Authorization": { "tests": 6, "passed": 6 },
+    "Audit Logging": { "tests": 2, "passed": 2 },
+    "Determinism and Fingerprints": { "tests": 3, "passed": 3 },
+    "All 15 Required Categories Coverage": { "tests": 16, "passed": 16 },
+    "Bottlenecks and Warnings Serialization": { "tests": 2, "passed": 2 },
+    "Strict Stage Isolation and Non-Goals": { "tests": 9, "passed": 9 }
+  },
+  "mandatory_fixtures_verified": [
+    "KNOWN_FEASIBLE_PROJECT",
+    "IMPOSSIBLE_FACULTY_CAPACITY",
+    "IMPOSSIBLE_LAB_WINDOW",
+    "IMPOSSIBLE_ROOM_CAPACITY",
+    "IMPOSSIBLE_SYNCHRONIZATION",
+    "SOFT_POLICY_PRESSURE",
+    "REQUIRES_REVIEW_PROJECT"
+  ]
+}
